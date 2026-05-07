@@ -8,6 +8,7 @@ import {
   websiteSchema,
 } from "@/lib/schema";
 import { site } from "@/lib/site";
+import { getAllSettings } from "@/lib/settings";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -37,7 +38,27 @@ export const viewport: Viewport = {
   colorScheme: "dark",
 };
 
-export const metadata: Metadata = {
+/**
+ * Build site-wide metadata. Uses dynamic favicon / OG image URLs if the
+ * admin has uploaded custom brand assets in /sb-console/settings;
+ * otherwise falls back to the bundled defaults (`/favicon.ico`, `/og.png`).
+ *
+ * The cache-buster (`?v=<id>`) on the dynamic URLs ensures browsers and
+ * social platforms re-fetch when the admin replaces an asset.
+ */
+export async function generateMetadata(): Promise<Metadata> {
+  const settings = await getAllSettings();
+  const faviconId = settings["brand.favicon_id"] || "";
+  const ogId = settings["brand.og_image_id"] || "";
+
+  const faviconUrl = faviconId
+    ? `/api/brand/favicon?v=${faviconId}`
+    : "/favicon.ico";
+  const ogUrl = ogId
+    ? `${site.url}/api/brand/og_image?v=${ogId}`
+    : `${site.url}${site.ogImage}`;
+
+  return {
   metadataBase: new URL(site.url),
   title: {
     default:
@@ -90,7 +111,7 @@ export const metadata: Metadata = {
     description: site.description,
     images: [
       {
-        url: site.ogImage,
+        url: ogUrl,
         width: 1200,
         height: 630,
         alt: `${site.brand} — ${site.tagline}`,
@@ -102,7 +123,7 @@ export const metadata: Metadata = {
     title:
       "Saurabh Bhayana — Website Development, Digital Marketing & AI Services",
     description: site.description,
-    images: [site.ogImage],
+    images: [ogUrl],
   },
   robots: {
     index: true,
@@ -116,14 +137,17 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: faviconUrl,
+    shortcut: faviconUrl,
+    apple: faviconUrl,
   },
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-};
+  };
+}
 
 export default async function RootLayout({
   children,

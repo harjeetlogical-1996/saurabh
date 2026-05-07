@@ -7,7 +7,7 @@ import {
   SECRET_SETTING_KEYS,
   type SettingKey,
 } from "@/lib/settings";
-import { saveSettings } from "./actions";
+import { saveSettings, uploadBrandAsset, clearBrandAsset } from "./actions";
 
 export const dynamic = "force-dynamic";
 
@@ -179,9 +179,17 @@ export default async function SettingsPage() {
         ]}
       />
 
+      <div className="px-6 md:px-10 pt-10 max-w-[920px]">
+        <BrandAssetsSection
+          faviconId={values["brand.favicon_id"] ?? ""}
+          logoId={values["brand.logo_id"] ?? ""}
+          ogId={values["brand.og_image_id"] ?? ""}
+        />
+      </div>
+
       <form
         action={saveSettings}
-        className="px-6 md:px-10 py-10 max-w-[920px] space-y-10"
+        className="px-6 md:px-10 pt-10 pb-10 max-w-[920px] space-y-10"
       >
         {groups.map((group) => (
           <section
@@ -308,4 +316,153 @@ function maskedHint(value: string): string {
   const v = value.trim();
   if (v.length <= 8) return "••••";
   return `${v.slice(0, 4)}••••${v.slice(-4)}`;
+}
+
+/* ---------------- Brand Assets ---------------- */
+
+/**
+ * Three independent file-upload forms — favicon, logo, OG image. We can't
+ * fold these into the main saveSettings form because file inputs need
+ * multipart/form-data and the saveSettings action is a plain string-fields
+ * action.
+ *
+ * Server processes the upload, stores the source in GridFS, writes the
+ * GridFS id to the matching setting key. The public site reads the id
+ * and serves the processed asset via /api/brand/<kind>?v=<id>.
+ */
+function BrandAssetsSection({
+  faviconId,
+  logoId,
+  ogId,
+}: {
+  faviconId: string;
+  logoId: string;
+  ogId: string;
+}) {
+  return (
+    <section className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-7 md:p-9">
+      <div>
+        <h2 className="font-display text-[20px] tracking-tight text-white">
+          Brand assets
+        </h2>
+        <p className="mt-1.5 text-[13px] text-[var(--muted)] leading-[1.6] max-w-[640px]">
+          Upload your favicon, logo, and Open Graph image. Each is processed
+          and served at the right size on demand. PNG, JPG, WebP, SVG
+          accepted (favicon also accepts ICO).
+        </p>
+      </div>
+
+      <div className="mt-7 grid grid-cols-1 md:grid-cols-3 gap-5">
+        <BrandAssetCard
+          kind="favicon"
+          label="Favicon"
+          hint="Browser tab icon. Uploaded source is rendered at 32×32. Square images work best."
+          fileId={faviconId}
+        />
+        <BrandAssetCard
+          kind="logo"
+          label="Site logo"
+          hint="Shown in the navbar (max 32px tall). Wide PNG with transparent background, or SVG."
+          fileId={logoId}
+        />
+        <BrandAssetCard
+          kind="og_image"
+          label="Open Graph image"
+          hint="Social-share image (1200×630). Used on Twitter / LinkedIn / Slack previews."
+          fileId={ogId}
+        />
+      </div>
+    </section>
+  );
+}
+
+function BrandAssetCard({
+  kind,
+  label,
+  hint,
+  fileId,
+}: {
+  kind: "favicon" | "logo" | "og_image";
+  label: string;
+  hint: string;
+  fileId: string;
+}) {
+  // Cache-bust the preview by appending the file id so a freshly uploaded
+  // asset shows up immediately after the form action revalidates.
+  const previewUrl = fileId ? `/api/brand/${kind}?v=${fileId}` : "";
+
+  return (
+    <div className="rounded-xl border border-[var(--line)] bg-[var(--bg)] p-4 flex flex-col gap-3">
+      <div className="flex items-center justify-between gap-2">
+        <span className="text-[12px] font-medium text-white">{label}</span>
+        <span className="text-[10px] uppercase tracking-[0.18em] font-mono text-[var(--muted)]">
+          {fileId ? (
+            <span className="text-[var(--accent)]">Set</span>
+          ) : (
+            "Default"
+          )}
+        </span>
+      </div>
+
+      <div
+        className={`relative aspect-[16/9] overflow-hidden rounded-md border border-[var(--line)] bg-[var(--surface)] flex items-center justify-center`}
+      >
+        {previewUrl ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={previewUrl}
+            alt={`${label} preview`}
+            className={
+              kind === "og_image"
+                ? "w-full h-full object-cover"
+                : "max-h-[60%] max-w-[60%] object-contain"
+            }
+          />
+        ) : (
+          <span className="text-[10.5px] font-mono text-[var(--muted)]">
+            no upload
+          </span>
+        )}
+      </div>
+
+      <p className="text-[11px] text-[var(--muted)] leading-[1.5]">{hint}</p>
+
+      <form
+        action={uploadBrandAsset}
+        encType="multipart/form-data"
+        className="flex items-center gap-2"
+      >
+        <input type="hidden" name="kind" value={kind} />
+        <input
+          type="file"
+          name="file"
+          accept={
+            kind === "favicon"
+              ? "image/png,image/jpeg,image/webp,image/svg+xml,image/x-icon,image/vnd.microsoft.icon"
+              : "image/png,image/jpeg,image/webp,image/svg+xml"
+          }
+          required
+          className="flex-1 text-[11.5px] text-white file:mr-2 file:py-1 file:px-2 file:rounded-md file:border-0 file:bg-[var(--accent)] file:text-black file:cursor-pointer file:text-[11px] file:font-semibold cursor-pointer"
+        />
+        <button
+          type="submit"
+          className="h-8 px-3 rounded-md bg-[var(--accent)] text-black text-[11.5px] font-semibold hover:opacity-90"
+        >
+          Upload
+        </button>
+      </form>
+
+      {fileId && (
+        <form action={clearBrandAsset}>
+          <input type="hidden" name="kind" value={kind} />
+          <button
+            type="submit"
+            className="text-[11px] text-[var(--muted)] hover:text-red-400 font-mono"
+          >
+            ✕ Clear (revert to default)
+          </button>
+        </form>
+      )}
+    </div>
+  );
 }

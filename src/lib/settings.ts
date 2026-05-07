@@ -40,6 +40,13 @@ export const SETTING_DEFAULTS = {
   "code.head": "",
   "code.body_start": "",
   "code.body_end": "",
+
+  // Brand assets (uploaded via admin UI). Each value is the GridFS file id
+  // of the source upload. Served by /api/brand/<key> with format/size
+  // negotiation. Empty string means "use the bundled default".
+  "brand.favicon_id": "",
+  "brand.logo_id": "",
+  "brand.og_image_id": "",
 } as const;
 
 export type SettingKey = keyof typeof SETTING_DEFAULTS;

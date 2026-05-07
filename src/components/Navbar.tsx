@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getAllSettings } from "@/lib/settings";
 
 type Sub = { label: string; href: string; desc?: string };
 type Item = { label: string; href: string; subs?: Sub[] };
@@ -31,15 +32,33 @@ const items: Item[] = [
   { label: "Blog", href: "/blog" },
 ];
 
-export function Navbar() {
+export async function Navbar() {
+  // Optional admin-uploaded logo. Empty string = use the bundled CSS logomark.
+  const settings = await getAllSettings();
+  const logoId = settings["brand.logo_id"] || "";
+  const logoUrl = logoId ? `/api/brand/logo?v=${logoId}` : "";
+
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-xl bg-[rgba(10,10,10,0.7)] border-b border-[var(--line)]">
       <div className="max-w-[1240px] mx-auto px-6 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5">
-          <Logomark />
-          <span className="font-display text-[19px] tracking-tight">
-            Saurabh<span className="text-[var(--accent)]">.</span>
-          </span>
+          {logoUrl ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={logoUrl}
+              alt="Logo"
+              className="h-8 w-auto max-w-[200px] object-contain"
+              width={256}
+              height={64}
+            />
+          ) : (
+            <>
+              <Logomark />
+              <span className="font-display text-[19px] tracking-tight">
+                Saurabh<span className="text-[var(--accent)]">.</span>
+              </span>
+            </>
+          )}
         </Link>
 
         <ul className="hidden md:flex items-center gap-9 text-[13px] text-[var(--muted)]">
