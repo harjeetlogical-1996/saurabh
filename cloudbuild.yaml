@@ -1,0 +1,72 @@
+# Cloud Build pipeline for continuous deploy to Cloud Run.
+#
+# Triggered on every push to `main`. Builds the Docker image declared in
+# the repo's Dockerfile, pushes it to Artifact Registry, then rolls a new
+# Cloud Run revision out to 100% traffic.
+#
+# Required substitutions (set on the trigger, not in this file):
+#   _SERVICE   = saurabhbhayana-site
+#   _REGION    = us-central1
+#   _REPO      = saurabh-images        (Artifact Registry repo, auto-created
+#                                       on first build)
+#
+# Required IAM on the Cloud Build service account
+# (PROJECT_NUMBER@cloudbuild.gserviceaccount.com):
+#   - roles/run.admin               (deploy + traffic split)
+#   - roles/iam.serviceAccountUser  (act as the Cloud Run runtime SA)
+#   - roles/artifactregistry.writer
+#
+steps:
+  # 1. Build the Docker image from the existing Dockerfile.
+  - name: gcr.io/cloud-builders/docker
+    id: build
+    args:
+      - build
+      - --tag
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:$SHORT_SHA
+      - --tag
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:latest
+      - .
+
+  # 2. Push both tags so subsequent revisions can roll back to a SHA.
+  - name: gcr.io/cloud-builders/docker
+    id: push
+    args:
+      - push
+      - --all-tags
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}
+
+  # 3. Deploy to Cloud Run. Env vars stay attached from the previous
+  #    revision automatically — we only override what's needed here.
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    id: deploy
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - ${_SERVICE}
+      - --image=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:$SHORT_SHA
+      - --region=${_REGION}
+      - --platform=managed
+      - --allow-unauthenticated
+      - --port=8080
+      - --memory=1Gi
+      - --cpu=1
+      - --max-instances=3
+
+# Use a Cloud Build service account with the right perms (default is fine
+# in dev). Logging goes to Cloud Logging only since we don't have a bucket.
+options:
+  logging: CLOUD_LOGGING_ONLY
+  machineType: E2_HIGHCPU_8
+
+substitutions:
+  _SERVICE: saurabhbhayana-site
+  _REGION: us-central1
+  _REPO: saurabh-images
+
+images:
+  - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:$SHORT_SHA
+  - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:latest
+
+timeout: 1200s
