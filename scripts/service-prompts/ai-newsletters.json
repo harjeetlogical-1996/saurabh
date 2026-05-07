@@ -1,0 +1,20 @@
+{
+  "slug": "ai-newsletters",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI-Generated Newsletter service hero. Wide 16:9 aspect ratio. Composition: centered, a stylized email-newsletter envelope rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a wide rounded rectangle showing a newsletter layout with a header bar at top, three article-block sections beneath each containing a small heading line and three short text rows, and a tag/CTA strip at the bottom. A small sparkle glyph hovers above the newsletter (representing AI generation), connected by faint cyan threads to each article block. Subtle dot-grid background. Soft cyan glow behind the newsletter. No text, no real labels, no people, no logos. Mood: editorial, recurring, premium newsletter studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Email newsletter layout illustration with three article blocks and an AI sparkle glyph"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage AI Newsletter process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over stacked rectangles for theme/source curation, (2) a sparkle/diamond over a draft document for AI drafting, (3) a pen-tip with a checkmark for editorial polish, (4) an envelope with a paper-plane icon for scheduled send. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage AI newsletter process from curation to scheduled send"
+    },
+    {
+      "name": "formats",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny glyph hinting at a newsletter format: a stack of links (curation digest), a star with text (deep-dive essay), a small case-study clipboard (case studies), a calendar icon (weekly recap), a chart (data report), an alert bell (announcements). Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: format-driven, premium newsletter studio.",
+      "alt": "Grid illustration of six newsletter formats — curation digest, essay, case study, recap, data report, announcements"
+    }
+  ]
+}
