@@ -1,0 +1,20 @@
+{
+  "slug": "ai-blog-writing",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI-Powered Blog Writing service hero. Wide 16:9 aspect ratio. Composition: centered, a stylized editorial document rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a tall rounded rectangle showing a blog-post layout: a header bar at top, a heading line, three paragraph blocks, a small image placeholder in the middle, and a tag row at the bottom. To the left of the document, a small sparkle/diamond glyph (representing AI generation); to the right, a small pen-tip glyph with a checkmark (representing human editing). Faint cyan threads connect the AI glyph and the pen glyph to the document, suggesting the human-in-loop workflow. Subtle dot-grid background. Soft cyan glow behind the document. No text, no real labels, no people, no logos. Mood: editorial, hybrid AI-human craft, premium content studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Blog post layout illustration with AI-generation sparkle and human-edit pen glyphs"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a five-stage AI Blog Writing process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Five rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over question marks for topic + keyword research, (2) a clipboard with hierarchical bullet rows for outline writing, (3) a sparkle/diamond over a document for AI draft generation, (4) a pen-tip with a checkmark for human editing, (5) a code-bracket symbol with structured rows for SEO + schema finalization. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the five-stage AI blog writing process from research to SEO finalization"
+    },
+    {
+      "name": "use-cases",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny glyph hinting at a blog use case: a building (B2B SaaS thought leadership), a shopping bag (e-commerce), a graduation cap (EdTech), a stethoscope (healthcare), a chart (fintech), and a small house (real estate). Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: multi-vertical, premium editorial studio.",
+      "alt": "Grid illustration of six industries we write AI-assisted blog content for"
+    }
+  ]
+}

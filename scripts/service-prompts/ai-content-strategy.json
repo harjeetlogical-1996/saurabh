@@ -1,0 +1,20 @@
+{
+  "slug": "ai-content-strategy",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI Content Strategy service hero. Wide 16:9 aspect ratio. Composition: centered, a stylized strategic-roadmap layout rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a horizontal calendar timeline at the top with numbered month markers, three rounded rectangles beneath representing content pillars, and a small bar chart with an upward arrow on the right side suggesting growth. A small sparkle icon hovers above the timeline (representing AI assistance) connected by faint cyan lines to each pillar. Subtle dot-grid background. Soft cyan glow behind the roadmap. No text, no real labels, no people, no logos. Mood: planned, strategic, premium content studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Strategic content roadmap illustration with timeline, pillars, and growth chart"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a five-stage AI Content Strategy process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Five rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a crowd icon for audience research, (2) a graph with an upward arrow for opportunity sizing, (3) three vertical pillars for content pillar mapping, (4) a calendar with marked dates for editorial calendar, (5) a small dashboard with a line graph for measurement framework. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the five-stage AI content strategy process from audience research to measurement"
+    },
+    {
+      "name": "pillars",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny glyph hinting at a content pillar archetype: a graduation cap (educational), a chat bubble (thought leadership), a comparison chart (comparison/listicle), a magnifying glass (research/data), a clipboard (case study), a question mark (FAQ/answer). Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: pillar-driven, premium content studio.",
+      "alt": "Grid illustration of six content pillar archetypes — educational, thought leadership, comparison, research, case study, FAQ"
+    }
+  ]
+}

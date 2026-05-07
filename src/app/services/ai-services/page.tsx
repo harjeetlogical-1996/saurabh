@@ -117,9 +117,18 @@ const categories: Category[] = [
     blurb:
       "AI-assisted content with human editing, blogs, copy, scripts, translations, and long-form guides at scale.",
     items: [
-      { title: "AI-Powered Blog Writing (with human editing)" },
-      { title: "AI Content Strategy" },
-      { title: "AI Copywriting (ads, emails, landing pages)" },
+      {
+        title: "AI-Powered Blog Writing (with human editing)",
+        href: "/services/ai-services/ai-blog-writing",
+      },
+      {
+        title: "AI Content Strategy",
+        href: "/services/ai-services/ai-content-strategy",
+      },
+      {
+        title: "AI Copywriting (ads, emails, landing pages)",
+        href: "/services/ai-services/ai-copywriting",
+      },
       { title: "AI-Generated Newsletters" },
       { title: "AI Product Descriptions (e-commerce)" },
       { title: "AI Script Writing (videos, podcasts)" },

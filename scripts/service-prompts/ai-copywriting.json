@@ -1,0 +1,20 @@
+{
+  "slug": "ai-copywriting",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI Copywriting service hero. Wide 16:9 aspect ratio. Composition: three rounded-rectangle creative units stacked at varied depths in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a small ad banner at top with a CTA button outline, an email envelope shape with three subject-line bars in the middle, a tall landing-page mockup with a hero block and a button at bottom right. A small sparkle glyph hovers above suggesting AI assistance, connected to each unit by faint cyan threads. Subtle dot-grid background. Soft cyan glow. No text, no real labels, no people, no logos. Mood: conversion-focused, premium copywriting studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Stack of ad, email, and landing page creative units with AI sparkle glyph"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage AI Copywriting process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a target/audience icon for brief, (2) a sparkle/diamond over multiple stacked variations for AI variation generation, (3) a pen-tip with a checkmark for human polish, (4) a small bar chart with an A/B split for variant testing. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage AI copywriting process from brief to A/B testing"
+    },
+    {
+      "name": "channels",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny abstract glyph hinting at a copy channel: a small ad rectangle with a CTA button (paid ads), an envelope (email), a tall landing-page rectangle (landing pages), a chat bubble (social), an SMS-style speech bubble (SMS / push), a product card (product copy). Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: multi-channel, premium copywriting studio.",
+      "alt": "Grid illustration of six copywriting channels — ads, email, landing pages, social, SMS/push, product copy"
+    }
+  ]
+}
