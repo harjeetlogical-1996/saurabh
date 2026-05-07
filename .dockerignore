@@ -1,0 +1,19 @@
+# Keep the build context lean — Cloud Build uploads everything not ignored.
+node_modules
+.next
+out
+build
+.git
+.github
+.vscode
+.idea
+*.log
+*.tsbuildinfo
+.env*
+!.env.example
+README.md
+AGENTS.md
+CLAUDE.md
+docs
+coverage
+.DS_Store
