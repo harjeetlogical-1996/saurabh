@@ -1,0 +1,20 @@
+{
+  "slug": "content-restructuring-for-ai",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for a Content Restructuring for AI service hero. Wide 16:9 aspect ratio. Composition: a 'before and after' layout — on the left, a dense block of horizontal lines representing unstructured paragraphs (1.5px cyan #00f5d4 outlines on near-black #0a0a0a); a thin glowing arrow points to the right, where the same content has been reorganized into a clean structured layout: a short factual block at top, a question-mark icon, a list of three bullet rows, and a numbered citation tag at the bottom. The right side has a subtle cyan glow indicating it's the optimized version. Subtle dot-grid background. No text, no real labels, no people, no logos. Mood: transformation, clarity, premium content engineering studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Before-and-after illustration showing dense paragraphs being restructured into a clean Q&A and list format for AI parsing"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage Content Restructuring for AI process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a dense paragraph block for content audit, (2) a clipboard with checklist items for restructuring plan, (3) a document with structured rows and an FAQ accordion for rewrite-in-place, (4) a small dashboard with a line graph going up for citation lift validation. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage content restructuring process from audit to citation lift validation"
+    },
+    {
+      "name": "patterns",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny abstract glyph hinting at a content restructuring pattern: a short paragraph at top with a star (factual lead), a question-mark with answer rows below (Q&A blocks), a numbered list (numbered steps), a small comparison table layout, a quote-mark with a tag (named-source citations), and a tag/label icon (named entities). Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: pattern-driven, premium content engineering studio.",
+      "alt": "Grid illustration of six restructuring patterns — factual lead, Q&A blocks, numbered steps, tables, citations, named entities"
+    }
+  ]
+}

@@ -87,23 +87,27 @@ const categories: Category[] = [
         title: "Schema Markup for AI",
         desc: "Advanced structured data so AI understands your content.",
         hot: true,
+        href: "/services/ai-services/schema-markup-for-ai",
       },
       {
         title: "E-E-A-T Optimization",
         desc:
           "Experience, Expertise, Authoritativeness, Trust, critical for AI citations.",
         hot: true,
+        href: "/services/ai-services/eeat-optimization",
       },
       {
         title: "Brand Mention Tracking in LLMs",
         desc: "Monitor how AI tools talk about your brand.",
         hot: true,
+        href: "/services/ai-services/brand-mention-tracking-in-llms",
       },
       {
         title: "Content Restructuring for AI",
         desc:
           "Format content for AI consumption, Q&A, lists, citations, scannable structure.",
         hot: true,
+        href: "/services/ai-services/content-restructuring-for-ai",
       },
     ],
   },

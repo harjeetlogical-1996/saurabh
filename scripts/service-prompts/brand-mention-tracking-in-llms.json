@@ -1,0 +1,20 @@
+{
+  "slug": "brand-mention-tracking-in-llms",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for a Brand Mention Tracking in LLMs service hero. Wide 16:9 aspect ratio. Composition: centered, a stylized monitoring dashboard rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a wide rounded rectangle with a horizontal line graph trending upward across the middle, two small donut-chart circles in the upper area, and a vertical strip of small alert/notification icons running down the right edge. Around the dashboard, four small floating cards with chat-bubble glyphs hint at LLM probes pulling data into the dashboard. Faint cyan threads connect the chat bubbles to the dashboard. Subtle dot-grid background. Soft cyan glow behind the dashboard. No text, no real labels, no people, no logos. Mood: monitoring, real-time, premium tracking studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Brand-mention monitoring dashboard with line graph, donut charts, and alert markers"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage Brand Mention Tracking in LLMs process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a chat bubble for prompt-set design, (2) a small grid of repeating bubbles for automated probing, (3) a clipboard with a tag and a star for sentiment & accuracy logging, (4) a bell with a notification dot for alerting and reporting. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage brand-mention tracking process from prompt-set design to alerting"
+    },
+    {
+      "name": "metrics",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny abstract glyph hinting at a tracking metric: a counter/tally for mention frequency, a smiley with neutral/positive options for sentiment, a checkmark/x for accuracy, a comparison bar chart for share-of-voice, a clock for trending direction, and a bell with a small dot for alerts. Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: metric-driven, premium monitoring studio.",
+      "alt": "Grid illustration of six brand-mention metrics — frequency, sentiment, accuracy, share-of-voice, trend, alerts"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "eeat-optimization",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an E-E-A-T Optimization service hero. Wide 16:9 aspect ratio. Composition: centered, four interlocking diamond/rhombus shapes rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a, arranged in a 2x2 cluster with thin connecting lines, each diamond holding one tiny abstract glyph in its center: a footprint icon for Experience, a graduation cap for Expertise, a star inside a shield for Authority, a checkmark inside a circle for Trust. Soft cyan glow behind the cluster. Subtle dot-grid background. No text, no real labels, no people, no logos. Mood: structured, credibility-driven, premium SEO studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "E-E-A-T illustration with four interlocking diamonds for Experience, Expertise, Authority, Trust"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage E-E-A-T Optimization process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a clipboard for trust audit, (2) a person silhouette with a tiny graduation cap for author profile work, (3) a code-bracket with a checkmark for schema implementation, (4) a small line graph going up for credibility tracking. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage E-E-A-T optimization process from audit to credibility tracking"
+    },
+    {
+      "name": "signals",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny abstract glyph hinting at an E-E-A-T signal: a footprint for first-hand experience, a graduation cap for credentials, a small medal for awards/recognition, a star for reviews/ratings, a shield with a checkmark for trust badges, and a small linked-circle network for sameAs connections to authoritative profiles. Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: signal-driven, premium credibility studio.",
+      "alt": "Grid illustration of six E-E-A-T credibility signals — experience, expertise, awards, reviews, trust badges, sameAs links"
+    }
+  ]
+}

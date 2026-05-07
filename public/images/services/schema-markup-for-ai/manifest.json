@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "alt": "JSON-LD schema illustration with Person, Organization, and Article markers connecting to AI engines"
+  },
+  "process": {
+    "alt": "Diagram of the four-stage Schema Markup for AI process from audit to validation"
+  },
+  "schemas": {
+    "alt": "Grid illustration of the six core schema types AI engines parse — Person, Organization, Article, FAQPage, HowTo, Product"
+  }
+}

@@ -78,6 +78,26 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.92,
       changeFrequency: "weekly",
     },
+    {
+      path: "/services/ai-services/schema-markup-for-ai",
+      priority: 0.85,
+      changeFrequency: "monthly",
+    },
+    {
+      path: "/services/ai-services/eeat-optimization",
+      priority: 0.88,
+      changeFrequency: "monthly",
+    },
+    {
+      path: "/services/ai-services/brand-mention-tracking-in-llms",
+      priority: 0.85,
+      changeFrequency: "monthly",
+    },
+    {
+      path: "/services/ai-services/content-restructuring-for-ai",
+      priority: 0.88,
+      changeFrequency: "monthly",
+    },
     { path: "/technologies", priority: 0.7, changeFrequency: "monthly" },
     { path: "/blog", priority: 0.8, changeFrequency: "weekly" },
     { path: "/contact", priority: 0.6, changeFrequency: "yearly" },

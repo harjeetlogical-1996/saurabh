@@ -1,0 +1,20 @@
+{
+  "slug": "schema-markup-for-ai",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for a Schema Markup for AI service hero. Wide 16:9 aspect ratio. Composition: centered, a stylized JSON code block rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a rounded rectangle with thin nested-bracket structures suggesting a JSON-LD schema, with three small key-value rows visible. Above the code block, three small floating tag chips containing tiny abstract glyphs (a person silhouette for Person schema, a building for Organization schema, an article icon for Article schema). Below the code, three small AI engine glyphs (chat bubble, sparkle, P-letter) connected to the schema with thin cyan lines, suggesting AI engines parsing the markup. Subtle dot-grid background. Soft cyan glow behind the code block. No real text content, no labels, no people, no logos. Mood: structured, technical, machine-readable, premium SEO studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "JSON-LD schema illustration with Person, Organization, and Article markers connecting to AI engines"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage Schema Markup for AI process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a code-bracket symbol for schema audit, (2) a tree-shape with branching nodes for entity mapping, (3) a code block with curly braces for implementation, (4) a checkmark inside a shield for validation testing. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage Schema Markup for AI process from audit to validation"
+    },
+    {
+      "name": "schemas",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny abstract glyph hinting at a schema type: a person silhouette (Person), a building (Organization), a document with lines (Article), a Q-and-A accordion (FAQPage), a numbered list (HowTo), and a small product box (Product). Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: schema-type-driven, premium structured-data studio.",
+      "alt": "Grid illustration of the six core schema types AI engines parse — Person, Organization, Article, FAQPage, HowTo, Product"
+    }
+  ]
+}

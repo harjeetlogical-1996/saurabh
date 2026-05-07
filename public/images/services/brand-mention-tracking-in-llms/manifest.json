@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "alt": "Brand-mention monitoring dashboard with line graph, donut charts, and alert markers"
+  },
+  "process": {
+    "alt": "Diagram of the four-stage brand-mention tracking process from prompt-set design to alerting"
+  },
+  "metrics": {
+    "alt": "Grid illustration of six brand-mention metrics — frequency, sentiment, accuracy, share-of-voice, trend, alerts"
+  }
+}
