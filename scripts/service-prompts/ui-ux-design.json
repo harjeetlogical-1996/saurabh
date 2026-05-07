@@ -1,0 +1,20 @@
+{
+  "slug": "ui-ux-design",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for a UI/UX design studio's hero banner. Wide 16:9 aspect ratio. Composition: in the center, a single large abstract product screen rendered as a clean stack of UI components — a navigation bar, a hero block with a button, two card rows, and a footer — all drawn as 1.5px stroked outlines in cyan #00f5d4 on a near-black #0a0a0a background. Around the central screen, three small floating layers depict UX artifacts: a user-flow diagram with connected nodes and arrows on the upper left, a heatmap pattern showing density gradients on the lower left, and a small persona card with simple geometric placeholders on the right — all in the same wireframe-cyan style and slightly offset for depth. Subtle dot-grid texture across the background. Soft cyan glow behind the central screen. No text, no UI labels, no people, no logos. Mood: methodical, research-led, design-system thinking, premium product studio. Flat vector aesthetic with thin strokes, occasional accent fills in cyan at 8% opacity. Cinematic lighting from the upper left.",
+      "alt": "Wireframe illustration of a UI screen surrounded by user-flow, heatmap, and persona artifacts"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a five-stage UI/UX design process, laid out as a horizontal flow on a near-black #0a0a0a background. Wide 16:9 aspect ratio. From left to right, five rounded-square nodes connected by thin glowing cyan #00f5d4 lines with arrowheads. Each node is a 1.5px stroked outline containing a small abstract glyph: (1) three stacked horizontal bars with a magnifying glass for research, (2) a simple flow chart with three connected nodes for user flows, (3) a low-fidelity wireframe sketch with grid lines, (4) a polished UI artboard with a small color-swatch row for visual design, (5) a clipboard with a checkmark for usability testing. Lines have soft cyan glow. Subtle dot grid in the background. No text, no numbers, no people, no logos. Confident editorial style, flat vector, monochrome with cyan accents only.",
+      "alt": "Diagram of the five-stage UI/UX design process from research to usability testing"
+    },
+    {
+      "name": "deliverables",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on a near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked outline in cyan #00f5d4 containing one tiny abstract glyph that hints at a UX deliverable — for example: a connected flow diagram, a persona avatar made of geometric shapes, a wireframe screen with placeholder boxes, a Figma-style component tree, a clickable prototype with arrow connectors, and a usability test report with bar chart bars. Glyphs are simple, flat vector, geometric, no fine detail. Faint cyan connecting threads draw between adjacent cards to suggest a coherent system. Subtle dot grid in the background. A soft cyan vignette in the upper right corner. No text, no labels, no people, no logos. Mood: organized, deliverable-driven, premium UX studio.",
+      "alt": "Grid illustration of UI/UX deliverables — flows, personas, wireframes, components, prototypes, and usability reports"
+    }
+  ]
+}

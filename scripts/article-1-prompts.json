@@ -1,0 +1,44 @@
+{
+  "slug": "ai-seo-2026-geo-aeo-llmo-guide",
+  "cover": {
+    "prompt": "Hyper-realistic editorial photograph of a modern wooden desk in soft morning window light. Centered: a 27-inch monitor displaying a Google search results page where the top half is a clean AI Overview answer block with a small sparkle icon, followed by three blue link results below. Beside the monitor: an open Moleskine notebook with neat handwritten notes that read 'GEO / AEO / LLMO', a black ceramic mug of black coffee, a closed silver MacBook, and reading glasses. Shallow depth of field, photographed on a Sony A7 IV with a 35mm f/1.8 lens, natural color grading, slight grain, no people, no logos, no brand marks, 3:2 aspect ratio.",
+    "alt": "AI Overview answer block on a desktop monitor next to a notebook with notes about GEO, AEO, and LLMO"
+  },
+  "sections": [
+    {
+      "match": "Why AI SEO is now table stakes",
+      "prompt": "Hyper-realistic photograph of a person's hands holding a modern smartphone in portrait orientation, the phone screen clearly showing a ChatGPT chat interface with a long generated answer in plain typography and three small citation badges inline. Background is a softly blurred warm cafe scene with bokeh from window light and a half-finished cappuccino on the wooden table. Shot on a Fujifilm X-T5 with a 33mm f/1.4 lens, natural light, shallow depth of field, photo-real, no faces visible, no real brand logos, slight film grain, 3:2 aspect ratio.",
+      "alt": "Hands holding a phone showing a ChatGPT answer with citation badges in a cafe"
+    },
+    {
+      "match": "What AI SEO actually means: GEO, AEO, and LLMO",
+      "prompt": "Hyper-realistic flat-lay photograph from directly overhead of a clean white oak desk. Three small, identical kraft-paper index cards are arranged in a neat row, each labeled in crisp black marker: 'GEO', 'AEO', 'LLMO'. A black fineliner pen rests beside the cards, a small potted snake plant in the top corner, and a stack of two minimalist books at the edge. Soft daylight, gentle shadows, muted natural color palette, photographed on a Canon R5 with a 50mm f/2 lens, ultra sharp, no text other than what is on the cards, no logos, 3:2 aspect ratio.",
+      "alt": "Three index cards labeled GEO, AEO, and LLMO arranged on a white oak desk"
+    },
+    {
+      "match": "How AI search actually works",
+      "prompt": "Hyper-realistic photograph of a developer's workstation: a 32-inch monitor on a height-adjustable desk showing a clean three-column layout, where each column is a labeled card titled 'Query', 'Retrieve', and 'Synthesize' with simple numbered text beneath. A mechanical keyboard with cream keycaps and a wireless mouse sit in front. Side angle, soft window light from the left, slight reflections on the screen, shallow depth of field, photographed on a Sony A7 IV with a 50mm f/1.8 lens, photo-real, no people, no logos, 3:2 aspect ratio.",
+      "alt": "Monitor showing a three-step diagram of query, retrieve, and synthesize on a developer's desk"
+    },
+    {
+      "match": "On-page checklist: what to do this week",
+      "prompt": "Hyper-realistic top-down photograph of a paper printed checklist titled 'On-page AI SEO' lying on a slate-grey desk, with seven items handwritten next to it on a notepad: 'TL;DR box', 'Question H2s', 'JSON-LD schema', 'Allow GPTBot', 'Named entities', 'Cite sources', 'Declarative facts'. Three of the items have green check marks drawn beside them. A black fountain pen rests at the bottom right. Crisp natural daylight, soft shadows, photographed on a Nikon Z7 with a 35mm f/1.8 lens, photo-real, ultra sharp text, no logos, 3:2 aspect ratio.",
+      "alt": "Printed on-page AI SEO checklist with seven handwritten items, three checked"
+    },
+    {
+      "match": "Off-page in 2026: brand mentions over backlinks",
+      "prompt": "Hyper-realistic photograph of a laptop screen at a 30-degree angle showing a Wikipedia article page with a clean infobox on the right side and dense paragraph text on the left, the article appearing to be about a generic technology company. Beside the laptop on the wooden desk: a small stack of printed magazine pages with a visible 'Best Tools 2026' headline on the top page, a white ceramic coffee cup, and a pair of wireless earbuds in their case. Soft lamp light from upper right, warm tone, shallow depth of field, photographed on a Canon R6 with a 50mm f/1.4 lens, photo-real, no real brand names visible, 3:2 aspect ratio.",
+      "alt": "Laptop displaying a Wikipedia article beside printed magazine pages titled Best Tools 2026"
+    },
+    {
+      "match": "Measuring AI SEO: what to track",
+      "prompt": "Hyper-realistic photograph of a 27-inch monitor on a clean desk showing an analytics dashboard with three line charts trending upward, large headline numbers reading '+42%', '7/20', and '1,284', plus a sidebar list of five short metric labels. The dashboard is a clean light-mode interface with simple grey gridlines and a small accent of cyan in the chart lines. A spiral notebook with a few jotted figures sits open beside the keyboard. Side three-quarter angle, soft window light, shallow depth of field, photographed on a Sony A7 IV with a 35mm f/1.8 lens, photo-real, no logos, no brand names, 3:2 aspect ratio.",
+      "alt": "Analytics dashboard on a monitor showing three upward trend lines and key metrics"
+    },
+    {
+      "match": "A 90-day AI SEO sprint plan",
+      "prompt": "Hyper-realistic photograph of a 12-week paper wall planner pinned to a softboard, divided into three clearly visible blocks labeled 'Month 1: Foundation', 'Month 2: Content', and 'Month 3: Off-page'. Coloured sticky notes (pale yellow, mint, peach) are placed across the weeks with short handwritten tasks. A roll of washi tape, a black marker, and a small potted plant sit on the desk just below the planner. Slight angle, warm afternoon window light, shallow depth of field, photographed on a Fujifilm X-T5 with a 23mm f/2 lens, photo-real, no logos, 3:2 aspect ratio.",
+      "alt": "12-week paper wall planner with three monthly blocks and coloured sticky notes for an AI SEO sprint"
+    }
+  ]
+}

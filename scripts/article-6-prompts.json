@@ -1,0 +1,34 @@
+{
+  "slug": "ai-vs-human-content-what-ranks-on-google-2026",
+  "cover": {
+    "prompt": "Hyper-realistic editorial photograph of a clean wooden desk in soft daylight, showing two stacks of printed paper articles laid side by side. The left stack is labeled with a small handwritten card 'AI draft' and the pages have visible generic placeholder text. The right stack is labeled 'Human-edited' and has visible margin notes in red ink, highlighted lines, and a few sticky tabs sticking out the side. A black fountain pen rests in the gap between the two stacks. Beside them: a porcelain cup of black coffee, a closed silver MacBook, and a small folded printed sheet. Slight three-quarter angle, shallow depth of field, photographed on a Sony A7 IV with a 35mm f/1.8 lens, natural color, slight grain, no people, no real brand wordmarks, 3:2 aspect ratio.",
+    "alt": "Two stacks of printed articles on a desk, one labeled AI draft and the other Human-edited with red margin notes"
+  },
+  "sections": [
+    {
+      "match": "What Google actually penalizes",
+      "prompt": "Hyper-realistic top-down photograph of three printed paper cards arranged in a row on a slate-grey desk, each titled with a handwritten phrase: 'Thin or derivative', 'Fact-thin', 'No author signal'. Each card has a small red X drawn in the top-right corner and a brief one-line description below the title. A black fountain pen rests across the middle card, a porcelain cup of coffee sits at the corner. Crisp natural daylight, soft shadows, photographed on a Nikon Z7 with a 35mm f/1.8 lens, photo-real, ultra sharp readable handwriting, no logos, 3:2 aspect ratio.",
+      "alt": "Three cards on a desk listing the three traits Google penalizes: thin, fact-thin, and no author signal"
+    },
+    {
+      "match": "Why pure AI content keeps failing",
+      "prompt": "Hyper-realistic photograph of a 27-inch monitor on a clean grey desk showing a generic blog post in a clean light-mode editor, with several phrases highlighted in pale red: 'the platform', 'many businesses', 'recently', 'for example, a SaaS company'. A printed printout of the same post sits beside the keyboard with the same phrases circled in red ink and a handwritten note in the margin reading 'no specifics'. A black fountain pen rests across the printout. Side three-quarter angle, soft window light, shallow depth of field, photographed on a Canon R5 with a 50mm f/1.8 lens, photo-real, ultra sharp readable text, no logos, 3:2 aspect ratio.",
+      "alt": "Monitor showing a blog post with generic phrases highlighted in pale red, beside a printed copy with the same phrases circled and a note saying no specifics"
+    },
+    {
+      "match": "What AI engines actually reward in 2026",
+      "prompt": "Hyper-realistic photograph of a 27-inch monitor on a clean walnut desk showing a paragraph of long-form text in a clean editor, with five small phrases visibly underlined in soft cyan and connected with thin cyan lines to a side panel labeled 'Named entities'. The visible underlined phrases include things like company names, a city, a product, a date, and a number. A printed reference sheet sits beside the keyboard with handwritten notes. Side angle, soft window light, shallow depth of field, photographed on a Sony A7 IV with a 50mm f/1.8 lens, photo-real, ultra sharp readable text, no real brand wordmarks, 3:2 aspect ratio.",
+      "alt": "Monitor showing a paragraph with five named entities underlined in cyan and linked to a side panel labeled Named entities"
+    },
+    {
+      "match": "The hybrid workflow that actually ships",
+      "prompt": "Hyper-realistic top-down photograph of a clean walnut desk with five printed cards arranged in a left-to-right horizontal row, each labeled with a handwritten step: '1. Angle + proof', '2. Outline', '3. Section drafts', '4. Human edit', '5. Repurpose'. A thin cyan ribbon trails between the cards suggesting flow. A black fineliner pen rests beside the row, a porcelain cup of coffee in the corner, and a small open notebook just below with a few jotted notes. Soft daylight, gentle shadows, photographed on a Canon R5 with a 50mm f/2 lens, ultra sharp readable handwriting, no logos, 3:2 aspect ratio.",
+      "alt": "Five labeled cards in a row on a desk showing the five steps of the hybrid AI-plus-human content workflow"
+    },
+    {
+      "match": "The five rules that separate",
+      "prompt": "Hyper-realistic top-down photograph of five small kraft-paper index cards arranged in a clean 3-over-2 grid on a slate-grey desk, each card with a hand-printed rule: 'Edit every draft', 'One proof per section', 'Name everything', 'Cite outbound', 'Strong author signal'. Each card has a small green tick mark in the top-right corner. A black fountain pen rests across the middle card, a porcelain cup of coffee sits in the corner. Soft daylight, gentle shadows, photographed on a Nikon Z7 with a 35mm f/1.8 lens, photo-real, ultra sharp readable handwriting, no logos, 3:2 aspect ratio.",
+      "alt": "Five index cards arranged in a grid listing the five rules that separate AI content from AI-assisted content"
+    }
+  ]
+}

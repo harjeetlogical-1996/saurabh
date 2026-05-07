@@ -1,0 +1,44 @@
+{
+  "slug": "how-to-rank-in-chatgpt-perplexity-gemini",
+  "cover": {
+    "prompt": "Hyper-realistic editorial photograph of a glass-topped wooden desk in soft daylight. Centered: a 27-inch monitor displaying a Perplexity-style AI answer page with three numbered citation cards in a row beneath a generated paragraph, each card showing a small site favicon and a snippet of grey text. Beside the monitor: a black ceramic coffee cup, a printed sheet with the words 'Citation share +24%' written in marker at the top, and a fountain pen on top of an open spiral notebook with handwritten lines. Side three-quarter angle, shallow depth of field, photographed on a Sony A7 IV with a 35mm f/1.8 lens, natural color, slight grain, no people, no logos, 3:2 aspect ratio.",
+    "alt": "AI answer page with three numbered citation cards on a desktop monitor next to a printed citation share report"
+  },
+  "sections": [
+    {
+      "match": "Why a citation in ChatGPT is worth more than",
+      "prompt": "Hyper-realistic photograph of a person's hands cradling a smartphone in landscape orientation. The phone screen clearly shows a ChatGPT chat answer paragraph with three small citation badges inline, the middle badge subtly highlighted with a thin cyan outline. Background: a softly blurred warm cafe with bokeh from window light, a half-finished cappuccino and a small notebook just out of focus. Shot on a Fujifilm X-T5 with a 33mm f/1.4 lens, shallow depth of field, photo-real, no faces visible, no real brand logos, slight film grain, 3:2 aspect ratio.",
+      "alt": "Hands holding a phone showing a ChatGPT answer with one of three citations highlighted"
+    },
+    {
+      "match": "How ChatGPT, Perplexity, and Gemini actually pick a citation",
+      "prompt": "Hyper-realistic photograph from a low three-quarter angle of three modern smartphones standing upright on a clean grey concrete desk in a row, each phone screen clearly showing a different AI search interface: a chat answer with citation chips on the left phone, a numbered citation list on the middle phone, and a card-style answer with source thumbnails on the right phone. Soft window light from the upper left, gentle reflections on the screens, shallow depth of field, photographed on a Sony A7 IV with a 50mm f/1.8 lens, photo-real, no real brand wordmarks, no people, 3:2 aspect ratio.",
+      "alt": "Three smartphones in a row each displaying a different AI search interface with citations"
+    },
+    {
+      "match": "The five assets that drive",
+      "prompt": "Hyper-realistic top-down photograph of a clean walnut desk arranged with five labeled white cards in a 3-over-2 grid: 'Wikipedia', 'Reddit / Stack Overflow', 'Trade publications', 'Comparison pages', 'JSON-LD schema'. Each card has a tiny minimalist black icon in the top-left corner. A black fineliner pen rests in the center, and a thin cyan ribbon trails from one card to the next, suggesting connection. Soft daylight, gentle shadows, photographed on a Canon R5 with a 50mm f/2 lens, ultra sharp text, no logos, 3:2 aspect ratio.",
+      "alt": "Five labeled cards arranged on a desk representing Wikipedia, Reddit, trade pubs, comparison pages, and schema"
+    },
+    {
+      "match": "On-page tactics that actually move citation share",
+      "prompt": "Hyper-realistic photograph of a 27-inch monitor on a clean desk showing a long-form blog post in light mode, with the first 600 pixels block clearly highlighted by a soft cyan glow. Inside that highlighted block: a TL;DR header, five concise bullet points, and a question-shaped H2 heading visible just below. A coffee cup, a reading copy of a printed manuscript with handwritten margin notes, and a black mechanical pencil sit on the desk beside the screen. Side angle, soft window light from left, shallow depth of field, photographed on a Sony A7 IV with a 50mm f/1.8 lens, photo-real, sharp readable layout, no real brand names, 3:2 aspect ratio.",
+      "alt": "Blog post on a monitor with the top TL;DR block highlighted by a soft cyan glow"
+    },
+    {
+      "match": "A robots.txt that gets you cited everywhere",
+      "prompt": "Hyper-realistic photograph of a developer's terminal window on a 27-inch monitor displaying a robots.txt file with multiple 'User-agent' and 'Allow' directives clearly visible in monospace text, the lines for 'GPTBot', 'PerplexityBot', and 'ClaudeBot' each marked with a small green check mark in the gutter. The terminal uses a clean dark theme with a thin cyan accent. Beside the keyboard: a sticky note with the handwritten word 'Allow all', a coffee cup, and an open notebook with a pen. Side angle, soft window light, shallow depth of field, photographed on a Canon R6 with a 50mm f/1.4 lens, photo-real, sharp readable terminal text, no logos, 3:2 aspect ratio.",
+      "alt": "Terminal window showing a robots.txt with allow rules for GPTBot, PerplexityBot, and ClaudeBot"
+    },
+    {
+      "match": "How to measure citation share without losing your weekend",
+      "prompt": "Hyper-realistic top-down photograph of a printed spreadsheet titled 'Citation Share - Weekly' lying on a slate-grey desk, with rows for twenty money keywords and columns labeled 'ChatGPT', 'Perplexity', 'Gemini', each cell either empty or marked with a small green tick or red dash. A handwritten note at the bottom reads 'Week 6: 7/20 cited'. A black fountain pen and a small porcelain cup of black coffee sit at the corner. Crisp natural daylight, soft shadows, photographed on a Nikon Z7 with a 35mm f/1.8 lens, photo-real, ultra sharp readable text, no logos, 3:2 aspect ratio.",
+      "alt": "Printed weekly citation share spreadsheet with twenty keywords tracked across three AI engines"
+    },
+    {
+      "match": "A 90-day citation push you can actually run",
+      "prompt": "Hyper-realistic photograph of a 13-week paper wall planner pinned to a softboard, divided into three clearly visible blocks labeled 'Days 1-14: Foundation', 'Days 15-45: Content', 'Days 30-90: Off-page'. Coloured sticky notes (pale yellow, mint green, peach) are placed across the weeks with short handwritten tasks like 'Allow GPTBot', 'Rewrite TL;DR', 'Reddit comment', 'Pitch trade pub'. A roll of washi tape, a black marker, and a small potted plant sit on the desk just below the planner. Slight angle, warm afternoon window light, shallow depth of field, photographed on a Fujifilm X-T5 with a 23mm f/2 lens, photo-real, no logos, 3:2 aspect ratio.",
+      "alt": "13-week wall planner with three monthly blocks and sticky notes for a citation push"
+    }
+  ]
+}

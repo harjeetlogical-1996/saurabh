@@ -1,0 +1,67 @@
+import type { MetadataRoute } from "next";
+import { site } from "@/lib/site";
+import { getPublishedPosts } from "@/lib/content/posts";
+
+/**
+ * /sitemap.xml
+ *
+ * Lists every public, indexable route. Static routes are hand-curated;
+ * blog posts are appended dynamically from the DB.
+ */
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const now = new Date();
+
+  const staticRoutes: Array<{
+    path: string;
+    priority: number;
+    changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"];
+  }> = [
+    { path: "/", priority: 1.0, changeFrequency: "weekly" },
+    { path: "/services", priority: 0.9, changeFrequency: "monthly" },
+    {
+      path: "/services/website-development",
+      priority: 0.9,
+      changeFrequency: "monthly",
+    },
+    {
+      path: "/services/website-development/custom-website-design",
+      priority: 0.85,
+      changeFrequency: "monthly",
+    },
+    {
+      path: "/services/website-development/ui-ux-design",
+      priority: 0.85,
+      changeFrequency: "monthly",
+    },
+    {
+      path: "/services/digital-marketing",
+      priority: 0.9,
+      changeFrequency: "monthly",
+    },
+    {
+      path: "/services/ai-services",
+      priority: 0.95, // higher: GEO/AEO/LLMO is timely
+      changeFrequency: "weekly",
+    },
+    { path: "/technologies", priority: 0.7, changeFrequency: "monthly" },
+    { path: "/blog", priority: 0.8, changeFrequency: "weekly" },
+    { path: "/contact", priority: 0.6, changeFrequency: "yearly" },
+  ];
+
+  const staticEntries: MetadataRoute.Sitemap = staticRoutes.map((r) => ({
+    url: `${site.url}${r.path}`,
+    lastModified: now,
+    changeFrequency: r.changeFrequency,
+    priority: r.priority,
+  }));
+
+  const posts = await getPublishedPosts(500);
+  const postEntries: MetadataRoute.Sitemap = posts.map((p) => ({
+    url: `${site.url}/${p.slug}`,
+    lastModified: p.publishedAt ?? now,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticEntries, ...postEntries];
+}

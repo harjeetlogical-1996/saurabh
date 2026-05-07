@@ -1,0 +1,20 @@
+{
+  "slug": "custom-website-design",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for a website design studio's hero banner. Wide 16:9 aspect ratio. Composition: a large, modern desktop-browser frame centered slightly left, rendered as crisp wireframe outlines in cyan #00f5d4 on a near-black #0a0a0a background. Inside the browser are abstract layout blocks — a hero, a card grid, a footer — drawn as low-opacity geometric shapes. Floating to the right, three smaller framed views: a mobile screen, a tablet layout, and a Figma-style component panel, all in the same wireframe-cyan style and slightly rotated for depth. Subtle dot-grid texture across the background. A faint cyan glow behind the main browser. No text, no UI labels, no people, no logos. Mood: confident, technical, design-system-driven, high-end studio. Flat vector aesthetic with thin strokes (1.5 px), occasional accent fills in the same cyan at 8% opacity. Cinematic lighting from the upper left.",
+      "alt": "Wireframe illustration of a custom website design across desktop, tablet and mobile breakpoints"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a 4-step custom website design process, laid out as a horizontal flow on a near-black #0a0a0a background. Wide 16:9 aspect ratio. From left to right, four square nodes connected by thin glowing cyan #00f5d4 lines with arrowheads. Each node is a 1.5px stroked rounded square containing a small abstract icon-style glyph: (1) a magnifying glass over stacked rectangles for discovery, (2) a wireframe sketch with grid lines for wireframing, (3) a polished UI artboard with a small color swatch row for visual design, (4) a Figma-style component tree with three connected nodes for handoff. The connecting lines have soft cyan glow. Subtle dot grid behind. No text labels, no numbers, no people, no logos. Confident editorial style, flat vector, monochrome with cyan accents only.",
+      "alt": "Diagram of the four-stage custom website design process from discovery to design handoff"
+    },
+    {
+      "name": "industries",
+      "prompt": "A dark, abstract editorial illustration showing six small circular badges arranged in a balanced cluster on a near-black #0a0a0a background. Wide 16:9 aspect ratio. Each circle is a 1.5px stroked outline in cyan #00f5d4 containing a tiny abstract glyph that hints at an industry — for example: a stylized shopping bag, a cloud, a chart, a stethoscope, a graduation cap, a building. Glyphs are simple, flat vector, geometric, no detail. Faint cyan connecting threads draw between adjacent circles to suggest a network. Subtle dot grid in the background. A soft cyan vignette in the upper right corner. No text, no labels, no people, no logos, no specific brand marks. Mood: versatile, multi-industry, technical, premium.",
+      "alt": "Cluster illustration showing the range of industries we design custom websites for"
+    }
+  ]
+}

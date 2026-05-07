@@ -1,0 +1,44 @@
+{
+  "slug": "traditional-seo-dead-ai-search-vs-google",
+  "cover": {
+    "prompt": "Hyper-realistic editorial photograph of a modern wooden desk in soft window light. Centered: a 27-inch monitor split-screened with two browsers side by side, the left half showing a clean Google search results page with three blue link results visible below an AI Overview answer block, the right half showing a ChatGPT-style chat answer with three small citation badges. A printed magazine on the desk has the visible headline 'IS SEO DEAD?' in a bold serif font, a black coffee mug, and a fountain pen on top of an open notebook. Slight three-quarter angle, shallow depth of field, photographed on a Sony A7 IV with a 35mm f/1.8 lens, natural color, slight grain, no people, no real brand wordmarks visible, 3:2 aspect ratio.",
+    "alt": "Monitor split-screen showing Google with an AI Overview beside a ChatGPT answer, with a magazine titled IS SEO DEAD? on the desk"
+  },
+  "sections": [
+    {
+      "match": "So is SEO actually dead",
+      "prompt": "Hyper-realistic photograph of a vertical smartphone propped on a clean white oak desk, the screen clearly showing a LinkedIn-style feed post with a bold headline visible: 'SEO IS DEAD'. The phone is angled slightly so you can read the post but the surrounding feed is softly out of focus. Beside the phone: a small porcelain cup of black coffee, a pair of reading glasses, and a folded newspaper. Soft window light from the upper left, shallow depth of field, photographed on a Fujifilm X-T5 with a 50mm f/2 lens, photo-real, no real brand logos beyond the generic post layout, 3:2 aspect ratio.",
+      "alt": "Smartphone on a desk showing a LinkedIn-style post with the headline SEO IS DEAD"
+    },
+    {
+      "match": "What AI search has actually changed",
+      "prompt": "Hyper-realistic photograph of a person's hand holding a smartphone in portrait orientation. The phone screen clearly shows a ChatGPT chat interface where a user has typed a long product-research question and the model has returned a generated answer paragraph with three small citation badges visible inline. Background is a softly blurred home office with a monitor and a desk lamp out of focus. Shot on a Sony A7 IV with a 50mm f/1.8 lens, shallow depth of field, photo-real, no faces visible, no real brand wordmarks, slight film grain, 3:2 aspect ratio.",
+      "alt": "Phone showing a ChatGPT answer paragraph with three citation badges in response to a product research question"
+    },
+    {
+      "match": "What AI search has not changed",
+      "prompt": "Hyper-realistic photograph of a 27-inch monitor on a clean grey desk showing a Google search results page for a comparison query, with three crisp organic blue link results visible below the title bar, each result showing a clear page title, URL line, and meta description. Beside the monitor: a wireless keyboard, a mug of coffee, and a small printed sticky note that reads 'Brand search +18%'. Side three-quarter angle, soft window light from the right, shallow depth of field, photographed on a Canon R5 with a 50mm f/1.8 lens, photo-real, ultra sharp readable text, no real brand wordmarks, 3:2 aspect ratio.",
+      "alt": "Monitor showing a classic Google SERP with three organic blue link results and a sticky note tracking branded search lift"
+    },
+    {
+      "match": "The new map of search intent",
+      "prompt": "Hyper-realistic top-down photograph of a clean walnut desk with a printed funnel diagram laid across it on a single sheet of paper. The funnel has four labeled bands stacked vertically: 'Top of funnel - AI answers', 'Mid funnel - Google + Perplexity', 'Bottom of funnel - Google', 'Local - Google Maps'. Each band is hand-marked with a thin coloured marker stripe in a different muted tone. A black fineliner, a small ceramic dish, and a porcelain cup of black coffee sit beside the sheet. Soft daylight, gentle shadows, photographed on a Canon R5 with a 50mm f/2 lens, ultra sharp readable handwriting, no logos, 3:2 aspect ratio.",
+      "alt": "Hand-marked funnel diagram on paper mapping search intent across AI answers, Google, and local search"
+    },
+    {
+      "match": "What to cut, what to keep, what to add",
+      "prompt": "Hyper-realistic top-down photograph of three printed paper stacks side by side on a slate-grey desk, each topped with a small handwritten card label: the left stack labeled 'CUT', the middle labeled 'KEEP', the right labeled 'ADD'. Each stack has a few visible page titles peeking out (left stack with crossed-out titles, middle stack with green tick marks, right stack with small handwritten note 'TL;DR block'). A black fountain pen rests beside the middle stack. Crisp natural daylight, soft shadows, photographed on a Nikon Z7 with a 35mm f/1.8 lens, photo-real, ultra sharp readable text, no logos, 3:2 aspect ratio.",
+      "alt": "Three stacks of printed pages labeled CUT, KEEP, and ADD on a desk for a content audit"
+    },
+    {
+      "match": "Three real shifts you should make this quarter",
+      "prompt": "Hyper-realistic photograph of an open paper notebook on a wooden desk, with three numbered handwritten action items visible in clean black ink: '1. Shift 30% to commercial pages', '2. Add TL;DR to top 20 posts', '3. Track citation share weekly'. Each item has a small empty checkbox to its left. A black fountain pen rests across the page. Beside the notebook: a porcelain cup of coffee and a folded newspaper. Slight angle, soft window light from the upper left, shallow depth of field, photographed on a Sony A7 IV with a 35mm f/1.8 lens, photo-real, ultra sharp readable handwriting, no logos, 3:2 aspect ratio.",
+      "alt": "Open notebook on a desk with three handwritten action items for a quarterly SEO shift"
+    },
+    {
+      "match": "What to expect over the next 12 months",
+      "prompt": "Hyper-realistic photograph of a 27-inch monitor on a clean desk showing an analytics dashboard with two contrasting line charts: a downward-trending grey line labeled 'Informational traffic' and an upward-trending cyan line labeled 'Branded + commercial traffic'. The dashboard is a clean light-mode interface. Beside the keyboard: a printed report titled '12-month forecast' with a few highlighted lines, a coffee mug, and a small potted plant. Side three-quarter angle, soft daylight, shallow depth of field, photographed on a Sony A7 IV with a 50mm f/1.8 lens, photo-real, sharp readable chart labels, no logos, 3:2 aspect ratio.",
+      "alt": "Analytics dashboard showing a downward grey line for informational traffic and an upward cyan line for branded and commercial traffic"
+    }
+  ]
+}

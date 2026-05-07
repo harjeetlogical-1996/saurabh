@@ -1,0 +1,44 @@
+{
+  "slug": "best-ai-marketing-tools-2026",
+  "cover": {
+    "prompt": "Hyper-realistic editorial photograph of a clean wooden desk in soft daylight, with a 27-inch monitor displaying a tidy grid of fifteen small app-card tiles arranged in a 5-by-3 layout, each tile showing an abstract minimal icon and a one-word label. Beside the monitor: an open Moleskine notebook with a handwritten heading '2026 Marketing Stack' and a short list below, a black ceramic mug of black coffee, a closed silver MacBook, and a fountain pen. Slight three-quarter angle, shallow depth of field, photographed on a Sony A7 IV with a 35mm f/1.8 lens, natural color, slight grain, no people, no real brand wordmarks visible, 3:2 aspect ratio.",
+    "alt": "Monitor showing a 5-by-3 grid of fifteen app tiles next to a notebook headed '2026 Marketing Stack'"
+  },
+  "sections": [
+    {
+      "match": "Foundation models",
+      "prompt": "Hyper-realistic photograph of three modern smartphones standing upright in a row on a clean grey concrete desk, each phone screen clearly showing a different chat interface: a left phone with a long generated answer paragraph, a middle phone with a structured outline-style response, a right phone with a clean two-paragraph synthesis. Soft window light from the upper left, gentle screen reflections, shallow depth of field, photographed on a Sony A7 IV with a 50mm f/1.8 lens, photo-real, no real brand wordmarks visible, no people, 3:2 aspect ratio.",
+      "alt": "Three smartphones in a row each showing a different AI chat interface"
+    },
+    {
+      "match": "Content and writing",
+      "prompt": "Hyper-realistic photograph of a 27-inch monitor on a clean walnut desk showing a long-form blog post in a clean light-mode editor, with a side panel listing 'Brand voice', 'Outline', 'Fact check' as small labeled cards. A printed sheet on the desk has handwritten margin notes in red ink, a black fountain pen rests on top, and a porcelain cup of black coffee sits to the right. Side three-quarter angle, soft window light, shallow depth of field, photographed on a Canon R5 with a 50mm f/1.8 lens, photo-real, ultra sharp readable text, no real brand wordmarks, 3:2 aspect ratio.",
+      "alt": "Monitor showing a content editor with brand voice, outline, and fact-check side cards next to a printed page with red margin notes"
+    },
+    {
+      "match": "SEO and citation tracking",
+      "prompt": "Hyper-realistic photograph of a wide curved monitor displaying a side-by-side dashboard layout: the left half shows a classic SEO platform with a keyword research table and an upward trend chart, the right half shows a citation-share tracker with a bar chart titled 'ChatGPT vs Perplexity vs Gemini' and three coloured bars. A printed weekly report sits on the desk beside a wireless keyboard, with a few highlighted lines visible. Side angle, soft window light, shallow depth of field, photographed on a Sony A7 IV with a 35mm f/1.8 lens, photo-real, sharp readable chart labels, no logos, 3:2 aspect ratio.",
+      "alt": "Curved monitor split between a classic SEO dashboard and a citation-share tracker comparing ChatGPT, Perplexity, and Gemini"
+    },
+    {
+      "match": "Ads (where AI changed the least",
+      "prompt": "Hyper-realistic photograph of a 27-inch monitor on a clean desk showing an ads dashboard split into two sections: the left section shows a Meta-style performance chart with a steadily rising green line and a CPA number, the right section shows a Google-style multi-channel performance grid with small thumbnails and bid columns. A printed media plan sits beside the keyboard, a coffee mug with a pen resting across the top, and a small notebook with a few jotted numbers. Side three-quarter angle, soft afternoon window light, shallow depth of field, photographed on a Canon R6 with a 50mm f/1.4 lens, photo-real, sharp readable numbers and labels, no real brand wordmarks, 3:2 aspect ratio.",
+      "alt": "Ads dashboard on a monitor with a Meta-style performance chart on the left and a Google-style multi-channel grid on the right"
+    },
+    {
+      "match": "Analytics (where most",
+      "prompt": "Hyper-realistic photograph of a 27-inch monitor on a clean grey desk displaying a clean analytics dashboard with two main charts: a top chart showing a conversion-funnel breakdown with five stacked bars and decreasing widths, and a bottom chart showing a retention cohort grid with cells coloured in soft greens and greys. A printed weekly summary sits beside the keyboard with a few green highlighter strokes, a porcelain cup of coffee, and a small notebook. Side angle, soft window light, shallow depth of field, photographed on a Sony A7 IV with a 50mm f/1.8 lens, photo-real, sharp readable text, no logos, 3:2 aspect ratio.",
+      "alt": "Analytics dashboard on a monitor showing a five-step conversion funnel and a retention cohort grid"
+    },
+    {
+      "match": "How to assemble a stack on a real budget",
+      "prompt": "Hyper-realistic top-down photograph of a clean walnut desk with four printed cards arranged in a 2-by-2 grid, each card titled with a budget tier: 'Solo - $60', '1-3 team - $300', '4-10 team - $700', 'Agency - $1,500+'. Below each title, three short handwritten tool names are listed neatly. A black fineliner pen rests in the center, a porcelain cup of coffee sits in one corner, and a tiny brass paperclip pile sits in the other. Soft daylight, gentle shadows, photographed on a Canon R5 with a 50mm f/2 lens, ultra sharp readable handwriting, no logos, 3:2 aspect ratio.",
+      "alt": "Four printed cards on a desk listing four budget tiers for a 2026 AI marketing stack"
+    },
+    {
+      "match": "What to actually do this week",
+      "prompt": "Hyper-realistic photograph of an open paper notebook on a wooden desk, with three numbered handwritten action items visible in clean black ink: '1. Pick one foundation model', '2. Add citation tracking', '3. Cut one underused tool'. Each item has a small empty checkbox to its left. A black fountain pen rests across the page. Beside the notebook: a porcelain cup of coffee, a small potted snake plant, and a folded sheet of paper. Slight angle, soft window light from the upper left, shallow depth of field, photographed on a Sony A7 IV with a 35mm f/1.8 lens, photo-real, ultra sharp readable handwriting, no logos, 3:2 aspect ratio.",
+      "alt": "Open notebook with three numbered handwritten action items for picking AI marketing tools this week"
+    }
+  ]
+}

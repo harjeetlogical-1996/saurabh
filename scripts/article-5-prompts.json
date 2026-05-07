@@ -1,0 +1,44 @@
+{
+  "slug": "how-to-build-ai-chatbot-for-website-no-code",
+  "cover": {
+    "prompt": "Hyper-realistic editorial photograph of a modern wooden desk in soft daylight. Centered: a 27-inch monitor showing a clean website homepage with a chat widget bubble visible in the bottom-right corner of the screen, the panel slightly expanded to reveal a few message bubbles in a tidy conversation thread. Beside the monitor: a black ceramic mug of black coffee, an open Moleskine notebook with neat handwritten notes that read 'Chatbot v1', a closed silver MacBook, and reading glasses. Slight three-quarter angle, shallow depth of field, photographed on a Sony A7 IV with a 35mm f/1.8 lens, natural color, slight grain, no people, no real brand wordmarks, 3:2 aspect ratio.",
+    "alt": "Website on a desktop monitor with an open chat widget showing a tidy conversation thread, beside a notebook labeled Chatbot v1"
+  },
+  "sections": [
+    {
+      "match": "Why a website chatbot is suddenly worth your time",
+      "prompt": "Hyper-realistic photograph of a person's hand holding a vertical smartphone, the phone screen clearly showing a clean website on the left half and an expanded chat panel on the right half with a few short user messages and a longer assistant reply. Background is a softly blurred warm cafe with bokeh from window light and a half-finished coffee cup just out of focus. Shot on a Fujifilm X-T5 with a 33mm f/1.4 lens, shallow depth of field, photo-real, no faces visible, no real brand logos, slight film grain, 3:2 aspect ratio.",
+      "alt": "Hand holding a phone showing a website with an open chat panel and a short conversation"
+    },
+    {
+      "match": "How a 2026 AI chatbot actually works under the hood",
+      "prompt": "Hyper-realistic top-down photograph of a clean walnut desk with four printed cards stacked vertically in a tall column, each card labeled in clean handwriting: 'Foundation model', 'Knowledge base', 'System prompt', 'Widget + integrations'. A thin cyan ribbon connects the cards top to bottom suggesting layers. A black fineliner pen rests beside the column, a small porcelain cup of black coffee sits in the corner. Soft daylight, gentle shadows, photographed on a Canon R5 with a 50mm f/2 lens, ultra sharp readable handwriting, no logos, 3:2 aspect ratio.",
+      "alt": "Four cards stacked in a column labeled foundation model, knowledge base, system prompt, and widget plus integrations"
+    },
+    {
+      "match": "Pick the right no-code platform",
+      "prompt": "Hyper-realistic top-down photograph of five small kraft-paper index cards arranged in a clean row on a slate-grey desk, each card with a hand-printed platform label: 'HubSpot', 'Intercom Fin', 'Tidio', 'Chatbase', 'Botpress'. Below each label is a one-line handwritten note describing the ideal use case. A black fountain pen rests across the row, a porcelain cup of coffee sits at the corner. Soft daylight, gentle shadows, photographed on a Nikon Z7 with a 35mm f/1.8 lens, ultra sharp readable handwriting, no logos beyond the printed text on the cards, 3:2 aspect ratio.",
+      "alt": "Five index cards on a desk labeled HubSpot, Intercom Fin, Tidio, Chatbase, and Botpress with one-line use case notes"
+    },
+    {
+      "match": "The seven-step build",
+      "prompt": "Hyper-realistic photograph of an open paper notebook on a wooden desk, with seven numbered handwritten steps visible in clean black ink: '1. Define the job', '2. Pick platform', '3. Train on content', '4. Write system prompt', '5. Connect lead capture', '6. Style widget', '7. Install snippet'. Each step has a small empty checkbox to its left, and step 1 has a green tick already drawn. A black fountain pen rests across the page. Beside the notebook: a porcelain cup of coffee and a small folded sheet. Slight angle, soft window light from the upper left, shallow depth of field, photographed on a Sony A7 IV with a 35mm f/1.8 lens, photo-real, ultra sharp readable handwriting, no logos, 3:2 aspect ratio.",
+      "alt": "Open notebook with seven handwritten numbered steps for building an AI chatbot, the first step ticked"
+    },
+    {
+      "match": "Training data: the part that actually decides",
+      "prompt": "Hyper-realistic photograph of a 27-inch monitor on a clean desk showing a knowledge-base ingestion screen split into two columns: the left column lists URLs and PDF filenames being indexed (with small green check marks beside each item), the right column shows a vector-database-style row of dotted spheres in a soft cyan accent. Beside the monitor: a printed FAQ document with handwritten margin notes in red ink, a black fountain pen, a porcelain cup of coffee. Side three-quarter angle, soft window light, shallow depth of field, photographed on a Canon R5 with a 50mm f/1.8 lens, photo-real, ultra sharp readable text, no logos, 3:2 aspect ratio.",
+      "alt": "Monitor showing a knowledge-base ingestion screen with URLs and PDFs being indexed, beside a printed FAQ with red margin notes"
+    },
+    {
+      "match": "The first 90 days",
+      "prompt": "Hyper-realistic photograph of a 13-week paper wall planner pinned to a softboard, divided into three labeled blocks: 'Weeks 1-2 - Triage', 'Weeks 3-6 - Tune lead capture', 'Weeks 7-12 - Mine for briefs'. Coloured sticky notes (pale yellow, mint green, peach) are placed across the weeks with short handwritten tasks like 'Read transcripts', 'Shorten qualify flow', 'Write 5 new FAQs'. A roll of washi tape, a black marker, and a small potted plant sit on the desk just below the planner. Slight angle, warm afternoon window light, shallow depth of field, photographed on a Fujifilm X-T5 with a 23mm f/2 lens, photo-real, no logos, 3:2 aspect ratio.",
+      "alt": "13-week wall planner with three monthly blocks and sticky notes for the first 90 days of chatbot improvement"
+    },
+    {
+      "match": "Common mistakes that kill chatbot ROI",
+      "prompt": "Hyper-realistic top-down photograph of three printed cards arranged in a row on a slate-grey desk, each card titled with a handwritten warning: 'Set and forget', 'No human handoff', 'No lead capture'. Each card has a small red X drawn in the top-right corner. A black fineliner pen rests across the middle card, a porcelain cup of coffee sits at the corner, a small notebook is open just below with a few handwritten notes. Crisp natural daylight, soft shadows, photographed on a Nikon Z7 with a 35mm f/1.8 lens, photo-real, ultra sharp readable handwriting, no logos, 3:2 aspect ratio.",
+      "alt": "Three cards on a desk labeled with chatbot mistakes, each marked with a red X in the corner"
+    }
+  ]
+}
