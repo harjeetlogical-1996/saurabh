@@ -43,6 +43,26 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.95, // higher: GEO/AEO/LLMO is timely
       changeFrequency: "weekly",
     },
+    {
+      path: "/services/ai-services/generative-engine-optimization",
+      priority: 0.9, // higher: timely + low competition
+      changeFrequency: "weekly",
+    },
+    {
+      path: "/services/ai-services/answer-engine-optimization",
+      priority: 0.9,
+      changeFrequency: "weekly",
+    },
+    {
+      path: "/services/ai-services/llm-optimization",
+      priority: 0.9,
+      changeFrequency: "weekly",
+    },
+    {
+      path: "/services/ai-services/ai-search-visibility-audit",
+      priority: 0.88,
+      changeFrequency: "monthly",
+    },
     { path: "/technologies", priority: 0.7, changeFrequency: "monthly" },
     { path: "/blog", priority: 0.8, changeFrequency: "weekly" },
     { path: "/contact", priority: 0.6, changeFrequency: "yearly" },

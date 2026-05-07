@@ -17,6 +17,9 @@ type SubItem = {
   title: string;
   desc?: string;
   hot?: boolean;
+  /** Optional internal route. When set the card renders as a Link
+   *  to the dedicated sub-service page. */
+  href?: string;
 };
 
 type Category = {
@@ -40,23 +43,27 @@ const categories: Category[] = [
         desc:
           "Optimize content to appear in AI-generated answers (ChatGPT, Perplexity, Google AI Overviews, Gemini).",
         hot: true,
+        href: "/services/ai-services/generative-engine-optimization",
       },
       {
         title: "AEO · Answer Engine Optimization",
         desc: "Get featured in AI answer boxes and voice search results.",
         hot: true,
+        href: "/services/ai-services/answer-engine-optimization",
       },
       {
         title: "LLMO · Large Language Model Optimization",
         desc:
           "Optimize so LLMs cite YOUR brand when answering relevant questions.",
         hot: true,
+        href: "/services/ai-services/llm-optimization",
       },
       {
         title: "AI Search Visibility Audit",
         desc:
           "Track where your brand appears across ChatGPT, Perplexity, Google AI Overviews, Gemini, Claude, and Copilot.",
         hot: true,
+        href: "/services/ai-services/ai-search-visibility-audit",
       },
       {
         title: "ChatGPT SEO",
@@ -582,15 +589,13 @@ function CategoryRow({ category }: { category: Category }) {
 
         <Reveal className="lg:col-span-7" delay={120}>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {category.items.map((item, i) => (
-              <li
-                key={item.title}
-                className={`group p-4 rounded-xl border bg-[var(--surface)] transition-all hover:-translate-y-0.5 ${
-                  item.hot
-                    ? "border-[var(--accent)]/40 hover:border-[var(--accent)]"
-                    : "border-[var(--line)] hover:border-[var(--accent)]"
-                }`}
-              >
+            {category.items.map((item, i) => {
+              const baseClasses = `group p-4 rounded-xl border bg-[var(--surface)] transition-all hover:-translate-y-0.5 ${
+                item.hot
+                  ? "border-[var(--accent)]/40 hover:border-[var(--accent)]"
+                  : "border-[var(--line)] hover:border-[var(--accent)]"
+              }`;
+              const inner = (
                 <div className="flex items-start gap-3">
                   <span className="mt-0.5 inline-flex h-6 min-w-[2.2rem] items-center justify-center rounded-md bg-[var(--accent)]/10 text-[var(--accent)] text-[11px] font-mono font-semibold px-1.5">
                     {category.n}.{String(i + 1).padStart(2, "0")}
@@ -605,6 +610,14 @@ function CategoryRow({ category }: { category: Category }) {
                           <Icon name="flame" size={13} strokeWidth={2} />
                         </span>
                       )}
+                      {item.href && (
+                        <span
+                          aria-hidden
+                          className="ml-auto shrink-0 text-[var(--accent)] opacity-0 group-hover:opacity-100 transition-opacity text-[14px]"
+                        >
+                          →
+                        </span>
+                      )}
                     </div>
                     {item.desc && (
                       <p className="mt-1.5 text-[12.5px] leading-[1.55] text-[var(--muted)]">
@@ -613,8 +626,19 @@ function CategoryRow({ category }: { category: Category }) {
                     )}
                   </div>
                 </div>
-              </li>
-            ))}
+              );
+              return (
+                <li key={item.title}>
+                  {item.href ? (
+                    <Link href={item.href} className={`${baseClasses} block`}>
+                      {inner}
+                    </Link>
+                  ) : (
+                    <div className={baseClasses}>{inner}</div>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </Reveal>
       </div>

@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "alt": "Illustration of a neural network with citation tags representing brands cited by large language models"
+  },
+  "process": {
+    "alt": "Diagram of the five-stage LLMO process from prompt mining to brand-presence monitoring"
+  },
+  "models": {
+    "alt": "Grid illustration of the major LLMs LLMO targets — GPT, Claude, Gemini, Perplexity, Copilot, and open-source models"
+  }
+}

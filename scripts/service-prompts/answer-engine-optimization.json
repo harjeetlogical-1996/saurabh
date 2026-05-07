@@ -1,0 +1,20 @@
+{
+  "slug": "answer-engine-optimization",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an Answer Engine Optimization (AEO) service hero. Wide 16:9 aspect ratio. Composition: centered, a stylized featured-answer card rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a rounded rectangle with a question-mark icon at the top-left, three short answer lines beneath, and a small 'source' tag at the bottom-right. Above the card, three smaller floating icons hint at answer surfaces: a microphone for voice search, a small zero-click search-result box, and a tiny FAQ accordion with two open rows. Connecting threads in cyan link the central card to each surface. Subtle dot-grid background. Soft cyan glow behind the central card. No text, no labels, no people, no logos. Mood: clear, factual, snippet-driven, premium SEO studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Illustration of a featured-answer card connected to voice search, zero-click results, and FAQ surfaces"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a five-stage Answer Engine Optimization process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Five rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a question-mark over stacked rectangles for question mining, (2) a clipboard with a paragraph and short bullet points for answer-format authoring, (3) a code-bracket symbol with FAQ rows for FAQ schema, (4) a small position-zero search result with a star for snippet capture, (5) a microphone with sound waves for voice search. Subtle dot grid. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the five-stage AEO process from question mining to voice search optimization"
+    },
+    {
+      "name": "surfaces",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny glyph hinting at an answer surface: a featured snippet box with a star, a 'People Also Ask' accordion, a knowledge-panel rectangle with a portrait silhouette, a microphone with sound waves for voice search, an FAQ list with three rows, and a small AI-overview rectangle with a sparkle. Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: full-funnel answer coverage, premium AEO studio.",
+      "alt": "Grid illustration of the answer surfaces AEO targets — featured snippets, People Also Ask, knowledge panels, voice, FAQ, AI overviews"
+    }
+  ]
+}

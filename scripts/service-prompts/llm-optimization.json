@@ -1,0 +1,20 @@
+{
+  "slug": "llm-optimization",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for a Large Language Model Optimization (LLMO) service hero. Wide 16:9 aspect ratio. Composition: centered, a stylized abstract neural-network shape rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a few rows of small circular nodes with thin glowing lines between them, suggesting an LLM's internal layers. Floating in front of the network, three small rounded-rectangle 'citation tag' chips, each containing a tiny brand-mark glyph (an asterisk, a circle, a square) — meant to look like brands the model has learned to cite. Faint cyan threads connect the network to each chip. Subtle dot-grid background. Soft cyan glow behind the network. No text, no labels, no people, no logos. Mood: technical, model-aware, citation-driven, premium AI studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Illustration of a neural network with citation tags representing brands cited by large language models"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a five-stage LLM Optimization process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Five rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a chat bubble for prompt mining, (2) a graph with a brand pin marker for brand-mention baseline, (3) a document with structured rows and an entity tag for entity & E-E-A-T work, (4) a globe with three connector points for distributed brand presence (Wikipedia, GitHub, datasets), (5) a small dashboard with a line going up for monitoring. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the five-stage LLMO process from prompt mining to brand-presence monitoring"
+    },
+    {
+      "name": "models",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny abstract glyph hinting at an LLM family — a chat bubble with three dots, a stylized P, a sparkle/diamond, an A with a star, a small B-shaped split, and a neural-net icon with three nodes. Glyphs are simple, geometric, no fine detail or actual logos. Faint cyan threads connect adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no real logos. Mood: multi-model coverage, premium AI optimization studio.",
+      "alt": "Grid illustration of the major LLMs LLMO targets — GPT, Claude, Gemini, Perplexity, Copilot, and open-source models"
+    }
+  ]
+}

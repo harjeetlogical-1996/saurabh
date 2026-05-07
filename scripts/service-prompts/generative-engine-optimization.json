@@ -1,0 +1,20 @@
+{
+  "slug": "generative-engine-optimization",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for a Generative Engine Optimization (GEO) service hero. Wide 16:9 aspect ratio. Composition: centered, a stylized AI-answer card rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a small chat bubble shape with three lines of placeholder text and a tiny citation marker (a superscript [1]) at the end of one line. Around it, four small circular badges floating at varied depths, each containing one tiny abstract glyph: a sparkle (for Gemini), a stylized P (for Perplexity), a chat icon (for ChatGPT), a magnifying glass with a tiny flame (for Google AI Overviews). Connecting threads in cyan link the central card to each badge, suggesting the brand being cited across engines. Subtle dot-grid background. Soft cyan glow behind the central card. No text, no labels, no people, no logos. Mood: confident, future-facing, citation-driven, premium SEO studio. Flat vector aesthetic, occasional 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Illustration of a brand being cited inside AI answer cards across ChatGPT, Perplexity, Gemini, and Google AI Overviews"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a five-stage Generative Engine Optimization process, laid out as a horizontal flow on a near-black #0a0a0a background. Wide 16:9 aspect ratio. From left to right, five rounded-square nodes connected by thin glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over stacked rectangles for AI search audit, (2) a question-mark inside a chat bubble for query mining, (3) a document with structured rows and a tag for content restructuring, (4) a code-bracket symbol with three small dots for schema markup, (5) a small bar chart with an upward arrow for citation tracking. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial style, flat vector, monochrome with cyan accents only.",
+      "alt": "Diagram of the five-stage GEO process from AI search audit to citation tracking"
+    },
+    {
+      "name": "engines",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on a near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny abstract glyph hinting at a generative search engine: a chat bubble with three dots (ChatGPT-style), a stylized P with a slash (Perplexity-style), a sparkle/diamond (Gemini-style), an A with a small star (Claude-style), a search bar with a tiny brain glyph (Google AI Overviews-style), and a small Bing-like split-square (Copilot-style). Glyphs are simple, geometric, no fine detail or actual logos. Faint cyan threads connect adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no real logos. Mood: multi-engine coverage, premium AI SEO studio.",
+      "alt": "Grid illustration showing the major generative engines GEO targets — ChatGPT, Perplexity, Gemini, Claude, Google AI Overviews, and Copilot"
+    }
+  ]
+}

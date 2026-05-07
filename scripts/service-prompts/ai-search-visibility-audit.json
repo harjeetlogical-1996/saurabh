@@ -1,0 +1,20 @@
+{
+  "slug": "ai-search-visibility-audit",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI Search Visibility Audit service hero. Wide 16:9 aspect ratio. Composition: centered, a stylized analytics dashboard rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a rounded-rectangle panel containing a horizontal bar chart with five bars of different lengths (representing brand-mention frequency across engines), a small pie chart in the upper right, and a trend line graph beneath. Around the dashboard, six small circular badges floating at varied depths, each containing a tiny abstract glyph hinting at an AI engine. Faint cyan threads link the dashboard to each badge. Subtle dot-grid background. Soft cyan glow behind the dashboard. No text, no labels, no people, no logos. Mood: data-driven, diagnostic, premium SEO research studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Dashboard illustration showing brand-mention metrics across multiple AI search engines"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage AI Search Visibility Audit process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a query/question mark icon over stacked rectangles for query selection, (2) a magnifying glass over a small chat bubble for engine probing, (3) a bar chart with comparison columns for competitor benchmarking, (4) a clipboard with a checklist and action arrows for the action plan output. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage AI search visibility audit process from query selection to action plan"
+    },
+    {
+      "name": "report",
+      "prompt": "A dark, abstract editorial illustration showing four small rounded-rectangle report cards arranged in a 2-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing a tiny chart-style glyph: a bar chart with three columns, a horizontal line graph trending upward, a horizontal stacked-bar comparison, and a small heatmap grid with shaded cells. Glyphs are simple, geometric, no labels. Faint cyan connecting threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: structured reporting, premium audit deliverable, data clarity.",
+      "alt": "Grid illustration of the four report sections — citation share, trend, competitor comparison, and engine heatmap"
+    }
+  ]
+}
