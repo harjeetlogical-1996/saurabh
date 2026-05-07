@@ -1,0 +1,20 @@
+{
+  "slug": "google-ai-overviews-optimization",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for a Google AI Overviews / SGE Optimization service hero. Wide 16:9 aspect ratio. Composition: centered, a stylized AI Overview card rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a wide rounded rectangle with a small sparkle icon at the top-left, three short summary lines beneath, a horizontal divider, and three small linked-source thumbnails arranged in a row beneath the divider. To the right of the card, three small floating tag chips containing tiny abstract glyphs (a shield, a star, a clock) suggesting trust, authority, and freshness. Faint cyan threads connect the card to each chip. Subtle dot-grid background. Soft cyan glow behind the card. No text, no real labels, no people, no logos. Mood: synthesized-answer surface, premium SEO studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Google AI Overview-style synthesized answer card with linked source thumbnails"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage Google AI Overviews optimization process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a sparkle for query mining, (2) a shield with a checkmark for E-E-A-T work, (3) a document with structured rows and citation tag for content authoring, (4) a small dashboard with a line going up for inclusion tracking. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage Google AI Overviews optimization process"
+    },
+    {
+      "name": "factors",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny abstract glyph hinting at a Google AI Overviews ranking factor: a shield with a checkmark for E-E-A-T, a small clock for freshness, a graph with an upward line for established authority, a document with code-bracket symbol for schema markup, a chat bubble with a question mark for query-aligned content, and a globe with three connected dots for entity relationships. Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: factor-led, premium SEO research studio.",
+      "alt": "Grid illustration of the six factors that drive inclusion in Google AI Overviews"
+    }
+  ]
+}

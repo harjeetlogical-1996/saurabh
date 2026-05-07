@@ -1,0 +1,20 @@
+{
+  "slug": "perplexity-seo",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for a Perplexity SEO service hero. Wide 16:9 aspect ratio. Composition: centered, a stylized search-and-answer card rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a tall rounded rectangle with a search bar at the top, three answer paragraphs beneath, and a vertical strip of small numbered citation chips ([1] [2] [3] [4]) running down the right edge. To the left of the card, three small floating tag chips containing tiny abstract glyphs (a globe, a clock, a star) suggesting source quality, freshness, and authority. Faint cyan threads connect the card to each chip. Subtle dot-grid background. Soft cyan glow behind the card. No text, no real labels, no people, no logos. Mood: citation-heavy, research-grade, premium SEO studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Perplexity-style answer card with numbered citations down the right edge"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage Perplexity SEO process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a question-mark inside a magnifying glass for query selection, (2) a globe with a small star for source-quality work, (3) a document with a citation tag and structured rows for answer-block authoring, (4) a small bar chart with numbered citation pins for citation-share tracking. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage Perplexity SEO process from query selection to citation-share tracking"
+    },
+    {
+      "name": "factors",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny abstract glyph hinting at a Perplexity ranking factor: a small numbered chip [1] for citation-friendly format, a globe with a clock for source freshness, a star inside a shield for authority signals, a small document with multiple link icons for outbound citations, a magnifying glass with structured rows for parseable structure, and a chat bubble with a question mark for query-aligned content. Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: factor-led, premium AI search studio.",
+      "alt": "Grid illustration of the six factors that drive Perplexity citations"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "chatgpt-seo",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for a ChatGPT SEO service hero. Wide 16:9 aspect ratio. Composition: centered, a stylized chat-window panel rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a rounded rectangle with three message bubbles stacked vertically (a small user prompt at top, two assistant responses beneath), and a tiny citation-tag chip [1] hanging off the bottom response. To the right of the chat window, three small floating tag chips containing tiny abstract glyphs (a globe, a star, a checkmark) suggesting source quality, freshness, and trust. Faint cyan threads connect the chat window to each chip. Subtle dot-grid background. Soft cyan glow behind the chat window. No text, no real labels, no people, no logos. Mood: conversational, citation-focused, premium SEO studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Chat-window illustration showing a brand cited as a source in a ChatGPT-style answer"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage ChatGPT SEO process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a question-mark inside a chat bubble for prompt mining, (2) a magnifying glass over a globe for browsing-source optimization, (3) a document with structured rows and a star icon for content authoring, (4) a clipboard with a star and a tiny line graph for citation tracking. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage ChatGPT SEO process from prompt mining to citation tracking"
+    },
+    {
+      "name": "factors",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny abstract glyph hinting at a ChatGPT ranking factor: a globe with a small clock for freshness/browsing, a star inside a shield for authority/E-E-A-T, a small document with question-mark for clear claims, a tag/citation marker, a chat bubble with three dots for conversational format, and a small bar chart for source diversity. Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: factor-led, premium SEO research studio.",
+      "alt": "Grid illustration of the six factors that drive ChatGPT citations — freshness, authority, clear claims, citations, conversational format, and source diversity"
+    }
+  ]
+}

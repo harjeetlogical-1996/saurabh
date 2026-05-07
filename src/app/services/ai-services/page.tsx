@@ -69,16 +69,19 @@ const categories: Category[] = [
         title: "ChatGPT SEO",
         desc: "Get listed when users search via ChatGPT.",
         hot: true,
+        href: "/services/ai-services/chatgpt-seo",
       },
       {
         title: "Perplexity SEO",
         desc: "Optimize for Perplexity's citation algorithm.",
         hot: true,
+        href: "/services/ai-services/perplexity-seo",
       },
       {
         title: "Google SGE / AI Overviews Optimization",
         desc: "Rank in Google's AI-generated answer summaries.",
         hot: true,
+        href: "/services/ai-services/google-ai-overviews-optimization",
       },
       {
         title: "Schema Markup for AI",

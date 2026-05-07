@@ -63,6 +63,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.88,
       changeFrequency: "monthly",
     },
+    {
+      path: "/services/ai-services/chatgpt-seo",
+      priority: 0.9,
+      changeFrequency: "weekly",
+    },
+    {
+      path: "/services/ai-services/perplexity-seo",
+      priority: 0.9,
+      changeFrequency: "weekly",
+    },
+    {
+      path: "/services/ai-services/google-ai-overviews-optimization",
+      priority: 0.92,
+      changeFrequency: "weekly",
+    },
     { path: "/technologies", priority: 0.7, changeFrequency: "monthly" },
     { path: "/blog", priority: 0.8, changeFrequency: "weekly" },
     { path: "/contact", priority: 0.6, changeFrequency: "yearly" },
