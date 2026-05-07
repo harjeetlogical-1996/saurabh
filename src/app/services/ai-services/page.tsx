@@ -133,8 +133,14 @@ const categories: Category[] = [
         title: "AI-Generated Newsletters",
         href: "/services/ai-services/ai-newsletters",
       },
-      { title: "AI Product Descriptions (e-commerce)" },
-      { title: "AI Script Writing (videos, podcasts)" },
+      {
+        title: "AI Product Descriptions (e-commerce)",
+        href: "/services/ai-services/ai-product-descriptions",
+      },
+      {
+        title: "AI Script Writing (videos, podcasts)",
+        href: "/services/ai-services/ai-script-writing",
+      },
       { title: "AI Translation & Localization" },
       {
         title: "AI Content Repurposing",

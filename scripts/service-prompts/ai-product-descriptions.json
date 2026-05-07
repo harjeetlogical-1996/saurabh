@@ -1,0 +1,20 @@
+{
+  "slug": "ai-product-descriptions",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI Product Descriptions service hero. Wide 16:9 aspect ratio. Composition: centered, three stylized e-commerce product cards rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — each card a rounded rectangle with a small image-placeholder square, a heading line, three short feature-bullet rows, a price/CTA row at the bottom. The cards are at slight rotated angles for depth. Above them, a small sparkle glyph hovers (representing AI generation), connected by faint cyan threads to each card. Subtle dot-grid background. Soft cyan glow behind the cards. No text, no real labels, no people, no logos. Mood: scalable, e-commerce-ready, premium content studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Three stylized product cards with image, title, features, and CTA — connected to an AI sparkle glyph"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage AI Product Description process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a spreadsheet-grid icon for catalog ingestion, (2) a sparkle/diamond over a stack of cards for AI bulk generation, (3) a magnifying glass with a checkmark for sample QA review, (4) an upload arrow into a database/storefront icon for delivery. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage AI product description workflow from catalog ingestion to delivery"
+    },
+    {
+      "name": "platforms",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny abstract glyph hinting at an e-commerce platform: a shopping bag (Shopify), a small W or W-shape (WooCommerce), a stylized M (Magento), a square grid (BigCommerce), a stack of cubes (custom catalog), a small CSV/spreadsheet (CSV upload). Glyphs simple, geometric, no real logos. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: multi-platform, premium e-commerce content studio.",
+      "alt": "Grid illustration of six e-commerce platforms we deliver product descriptions to"
+    }
+  ]
+}

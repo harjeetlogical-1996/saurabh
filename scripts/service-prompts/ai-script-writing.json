@@ -1,0 +1,20 @@
+{
+  "slug": "ai-script-writing",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI Script Writing service hero. Wide 16:9 aspect ratio. Composition: centered, a stylized clapperboard / clapboard-style script document rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a rounded rectangle with a slate strip at the top showing scene markers, three columns of dialogue / action / shot lines beneath, and small timestamp pins running down one side. To the right, a small floating microphone icon (audio podcast) and a play-button triangle (video) hint at output formats. A small sparkle glyph hovers above suggesting AI assistance. Subtle dot-grid background. Soft cyan glow. No text, no real labels, no people, no logos. Mood: scripted, scene-driven, premium production studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Stylized script document with scene markers, columns, and timestamp pins"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage AI Script Writing process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a question mark for brief & angle, (2) a clipboard with hierarchical bullet rows for outline, (3) a sparkle/diamond over a script document for AI draft, (4) a pen-tip with a checkmark for edit & polish. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage AI script writing process"
+    },
+    {
+      "name": "formats",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny abstract glyph hinting at a script format: a small play-button triangle (long-form YouTube), a vertical phone screen with a play arrow (Reels / Shorts), a microphone (podcast), a tutorial-style stack of numbered cards (explainer / tutorial), an ad-card with a CTA (commercial / ad), a webinar slide deck (webinar). Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: format-driven, premium scriptwriting studio.",
+      "alt": "Grid illustration of six script formats — long-form video, Reels/Shorts, podcast, explainer, ad, webinar"
+    }
+  ]
+}
