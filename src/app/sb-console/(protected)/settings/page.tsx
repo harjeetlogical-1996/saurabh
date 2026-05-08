@@ -430,7 +430,7 @@ function BrandAssetCard({
       <form
         action={uploadBrandAsset}
         encType="multipart/form-data"
-        className="flex items-center gap-2"
+        className="flex flex-col gap-2"
       >
         <input type="hidden" name="kind" value={kind} />
         <input
@@ -442,11 +442,11 @@ function BrandAssetCard({
               : "image/png,image/jpeg,image/webp,image/svg+xml"
           }
           required
-          className="flex-1 text-[11.5px] text-white file:mr-2 file:py-1 file:px-2 file:rounded-md file:border-0 file:bg-[var(--accent)] file:text-black file:cursor-pointer file:text-[11px] file:font-semibold cursor-pointer"
+          className="block w-full text-[11.5px] text-white file:mr-2 file:py-1.5 file:px-3 file:rounded-md file:border-0 file:bg-[var(--accent)] file:text-black file:cursor-pointer file:text-[11px] file:font-semibold cursor-pointer"
         />
         <button
           type="submit"
-          className="h-8 px-3 rounded-md bg-[var(--accent)] text-black text-[11.5px] font-semibold hover:opacity-90"
+          className="w-full h-9 rounded-md bg-[var(--accent)] text-black text-[12px] font-semibold hover:opacity-90"
         >
           Upload
         </button>
