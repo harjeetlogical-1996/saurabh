@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "alt": "Two side-by-side A/B test mockups with a small bar chart showing the winning variant"
+  },
+  "process": {
+    "alt": "Diagram of the four-stage A/B test variation process"
+  },
+  "test-types": {
+    "alt": "Grid illustration of six A/B test types — CTA, headline, hero, email subject, ad creative, pricing"
+  }
+}

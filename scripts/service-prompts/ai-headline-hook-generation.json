@@ -1,0 +1,20 @@
+{
+  "slug": "ai-headline-hook-generation",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI Headline & Hook Generation service hero. Wide 16:9 aspect ratio. Composition: a stack of three rounded-rectangle headline cards rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — each card showing a heading line of varied length and emphasis (one short, one medium, one long), at slightly rotated angles for depth. To the right, a small floating bar chart with one bar visibly taller than the others (representing winning variant). A small sparkle glyph hovers above the stack suggesting AI generation. Subtle dot-grid background. Soft cyan glow behind the stack. No text, no real labels, no people, no logos. Mood: variant-driven, A/B testing, premium copywriting studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Three stacked headline cards with a small bar chart highlighting the winning variant"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage AI Headline Generation process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a target/audience icon for brief, (2) a sparkle/diamond over multiple stacked headline cards for variant generation, (3) a pen-tip with a checkmark for editor selection, (4) a small bar chart with two bars (A/B) for testing. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage AI headline generation and testing process"
+    },
+    {
+      "name": "patterns",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny glyph hinting at a headline pattern: a question mark (curiosity question), a number/numeral (numbered list/listicle), a comparison split-arrow (X vs Y), a clock/calendar (urgency), a star with a checkmark (social proof), an exclamation mark inside a circle (contrarian/pattern interrupt). Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: pattern-driven, premium copywriting studio.",
+      "alt": "Grid illustration of six headline patterns — curiosity, numbered, comparison, urgency, social proof, contrarian"
+    }
+  ]
+}

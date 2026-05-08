@@ -138,6 +138,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.85,
       changeFrequency: "monthly",
     },
+    {
+      path: "/services/ai-services/ai-long-form-content",
+      priority: 0.85,
+      changeFrequency: "monthly",
+    },
+    {
+      path: "/services/ai-services/ai-headline-hook-generation",
+      priority: 0.83,
+      changeFrequency: "monthly",
+    },
+    {
+      path: "/services/ai-services/ai-ab-test-variations",
+      priority: 0.82,
+      changeFrequency: "monthly",
+    },
     { path: "/technologies", priority: 0.7, changeFrequency: "monthly" },
     { path: "/blog", priority: 0.8, changeFrequency: "weekly" },
     { path: "/contact", priority: 0.6, changeFrequency: "yearly" },

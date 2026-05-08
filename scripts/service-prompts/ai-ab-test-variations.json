@@ -1,0 +1,20 @@
+{
+  "slug": "ai-ab-test-variations",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI A/B Test Variation service hero. Wide 16:9 aspect ratio. Composition: centered, two side-by-side rounded-rectangle landing-page mockups in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — left card labeled 'A' (small letter) shows a hero block, three feature rows, a CTA; right card labeled 'B' shows the same structure with subtle layout/copy variations. Above them, a small horizontal bar chart with one bar visibly taller than the other indicating a winning variant. A small sparkle glyph hovers above suggesting AI generation of the variants. Subtle dot-grid background. Soft cyan glow behind the cards. No text, no real labels, no people, no logos. Mood: experimental, conversion-focused, premium CRO studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Two side-by-side A/B test mockups with a small bar chart showing the winning variant"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage AI A/B Test Variation process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a hypothesis question mark for hypothesis brief, (2) a sparkle/diamond over multiple stacked variant cards for AI variant generation, (3) a small split-A/B layout for variant pairing, (4) a bar chart with two bars and a winner indicator for results readout. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage A/B test variation process"
+    },
+    {
+      "name": "test-types",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny glyph hinting at a test type: a rounded button (CTA test), a heading line (headline test), a small image-and-text card (hero block test), an envelope with three subject-line bars (email subject test), an ad rectangle with three mini buttons (ad creative test), a stack of three pricing rectangles (pricing/offer test). Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: test-driven, premium CRO studio.",
+      "alt": "Grid illustration of six A/B test types — CTA, headline, hero, email subject, ad creative, pricing"
+    }
+  ]
+}

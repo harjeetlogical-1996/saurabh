@@ -150,9 +150,18 @@ const categories: Category[] = [
         desc: "1 video → blog + tweets + LinkedIn + carousel",
         href: "/services/ai-services/ai-content-repurposing",
       },
-      { title: "AI-Assisted Long-Form Content (10K+ word guides)" },
-      { title: "AI Headline & Hook Generation" },
-      { title: "AI A/B Test Variation Creation" },
+      {
+        title: "AI-Assisted Long-Form Content (10K+ word guides)",
+        href: "/services/ai-services/ai-long-form-content",
+      },
+      {
+        title: "AI Headline & Hook Generation",
+        href: "/services/ai-services/ai-headline-hook-generation",
+      },
+      {
+        title: "AI A/B Test Variation Creation",
+        href: "/services/ai-services/ai-ab-test-variations",
+      },
     ],
   },
   {

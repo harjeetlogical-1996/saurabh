@@ -1,0 +1,20 @@
+{
+  "slug": "ai-long-form-content",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI Long-Form Content service hero. Wide 16:9 aspect ratio. Composition: a tall stylized document rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — a long rounded rectangle representing a long-form guide, with a heading bar at top, a chapter-table-of-contents block with five rows beneath, then multiple paragraph sections separated by smaller H2 markers all the way down. To the right of the document, a small vertical 'sticky chapter nav' shape with five highlighted rows. A small sparkle glyph hovers above the heading suggesting AI assistance. Subtle dot-grid background. Soft cyan glow behind the document. No text, no real labels, no people, no logos. Mood: comprehensive, deep, premium long-form content studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Tall long-form guide document with table-of-contents, chapter sections, and a sticky chapter nav"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a five-stage AI Long-Form Content process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Five rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over question marks for research, (2) a clipboard with hierarchical chapter rows for outline, (3) a sparkle/diamond over a long document for AI chapter drafts, (4) a pen-tip with a checkmark for editorial polish, (5) a code-bracket with structured rows for SEO + schema. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the five-stage AI long-form content process from research to SEO finalization"
+    },
+    {
+      "name": "use-cases",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny glyph hinting at a long-form use case: a stack of book-spine rectangles (definitive guide), a magnifying glass over a graph (data report), an open book with chapter markers (ebook), an academic-style paper with checkmarks (whitepaper), a comparison-table grid (state-of-X report), a clipboard with bar chart (industry benchmark). Glyphs simple, geometric. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: depth-driven, premium long-form studio.",
+      "alt": "Grid illustration of six long-form use cases — definitive guide, data report, ebook, whitepaper, state-of-X report, industry benchmark"
+    }
+  ]
+}
