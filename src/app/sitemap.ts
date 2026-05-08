@@ -158,6 +158,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.86,
       changeFrequency: "monthly",
     },
+    {
+      path: "/services/ai-services/ai-logo-design",
+      priority: 0.86,
+      changeFrequency: "monthly",
+    },
     { path: "/technologies", priority: 0.7, changeFrequency: "monthly" },
     { path: "/blog", priority: 0.8, changeFrequency: "weekly" },
     { path: "/contact", priority: 0.6, changeFrequency: "yearly" },

@@ -174,7 +174,10 @@ const categories: Category[] = [
         title: "AI Image Generation (Midjourney, DALL-E, Flux)",
         href: "/services/ai-services/ai-image-generation",
       },
-      { title: "AI Logo Design" },
+      {
+        title: "AI Logo Design",
+        href: "/services/ai-services/ai-logo-design",
+      },
       { title: "AI Brand Asset Creation" },
       { title: "AI Product Photography" },
       { title: "AI Mockups & Visualization" },

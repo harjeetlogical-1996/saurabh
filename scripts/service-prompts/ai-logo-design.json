@@ -1,0 +1,20 @@
+{
+  "slug": "ai-logo-design",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI Logo Design service hero. Wide 16:9 aspect ratio. Composition: a 3-by-3 grid of nine small abstract logomark candidates rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — each cell holds a tiny different geometric mark (a circle, a triangle, a hexagon, an asterisk, a diamond, a square, a star, a curve, an arrow). One cell at the center has a slightly thicker stroke and a soft cyan glow indicating the chosen direction. A small sparkle glyph hovers above suggesting AI generation. Subtle dot-grid background. No text, no real labels, no people, no logos. Mood: variant exploration, brand-direction selection, premium logo studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "3x3 grid of abstract logo candidate marks with the chosen direction highlighted"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage AI Logo Design process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a clipboard for brand brief, (2) a sparkle/diamond over multiple stacked logo marks for AI variant generation, (3) a pen-tip with a checkmark over a single highlighted mark for direction selection, (4) a small grid of file-format icons (a vector S, a square, a circle) for final asset delivery. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage AI logo design process"
+    },
+    {
+      "name": "deliverables",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny glyph hinting at a logo deliverable: a stylized vector node with two anchor points (SVG vector files), a circle inside a square (light/dark variants), a horizontal logo with mark + wordmark layout, a small phone-icon for favicon variants, a small color-swatch stack (color palette), a font-A glyph (typography spec). Glyphs simple, geometric, no fine detail. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: deliverable-driven, premium logo studio.",
+      "alt": "Grid illustration of six logo design deliverables — vector files, light/dark variants, lockups, favicon, palette, typography"
+    }
+  ]
+}
