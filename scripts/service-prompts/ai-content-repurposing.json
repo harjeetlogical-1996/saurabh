@@ -1,0 +1,20 @@
+{
+  "slug": "ai-content-repurposing",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI Content Repurposing service hero. Wide 16:9 aspect ratio. Composition: centered, one large source rectangle (representing a video or long-form post) in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a, with a small play-button triangle inside. Radiating outward from this central rectangle, four smaller output cards at varied angles, each containing a tiny abstract glyph: a horizontal blog post layout, a stack of three short social tweet bubbles, a vertical phone-screen layout (Reels), a square carousel with three dots. Connector lines in glowing cyan link the source rectangle to each output card. Subtle dot-grid background. Soft cyan glow behind the source rectangle. No text, no real labels, no people, no logos. Mood: one-to-many, multiplied output, premium content studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "One source video/post radiating outward into blog, tweets, Reels, and carousel output cards"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage AI Content Repurposing process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a play-button triangle inside a rectangle for source ingestion, (2) a magnifying glass over text rows for transcription / outline extraction, (3) a sparkle/diamond branching into three smaller cards for AI multi-format generation, (4) a pen-tip with a checkmark over publishing icons for editorial polish + scheduling. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage AI content repurposing process"
+    },
+    {
+      "name": "outputs",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny glyph hinting at a content output type: a horizontal document layout (blog post), a small bird-like silhouette inside a tweet bubble (X / Twitter thread), a stylized 'in' style block (LinkedIn post), a square stack with three carousel dots (Instagram carousel), a vertical phone-screen play button (Reels / Shorts), an envelope (newsletter). Glyphs simple, geometric, no real logos. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: format-multiplier, premium content studio.",
+      "alt": "Grid illustration of six output formats — blog, Twitter thread, LinkedIn, carousel, Reels, newsletter"
+    }
+  ]
+}

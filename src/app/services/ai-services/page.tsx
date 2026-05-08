@@ -141,10 +141,14 @@ const categories: Category[] = [
         title: "AI Script Writing (videos, podcasts)",
         href: "/services/ai-services/ai-script-writing",
       },
-      { title: "AI Translation & Localization" },
+      {
+        title: "AI Translation & Localization",
+        href: "/services/ai-services/ai-translation-localization",
+      },
       {
         title: "AI Content Repurposing",
         desc: "1 video → blog + tweets + LinkedIn + carousel",
+        href: "/services/ai-services/ai-content-repurposing",
       },
       { title: "AI-Assisted Long-Form Content (10K+ word guides)" },
       { title: "AI Headline & Hook Generation" },

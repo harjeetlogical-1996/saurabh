@@ -1,0 +1,20 @@
+{
+  "slug": "ai-translation-localization",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI Translation & Localization service hero. Wide 16:9 aspect ratio. Composition: centered, two stylized rounded-rectangle document cards rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a — left card shows a title bar and three text rows in one layout, right card shows the same structure with slightly different rhythm (representing translated text). A small horizontal arrow with a sparkle icon connects the two cards. Around them, four small floating circular badges, each containing a tiny abstract glyph hinting at language scripts (a small Devanagari-style stroke, a Latin A, a Cyrillic-style mark, an Arabic-style curve) — all simple geometric shapes, no actual letters. Subtle dot-grid background. Soft cyan glow behind the cards. No text, no real labels, no people, no logos. Mood: cross-language, premium localization studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "Two document cards connected by a translation arrow, surrounded by abstract language glyph badges"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage AI Translation & Localization process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a globe for source analysis, (2) a sparkle/diamond over translated document rows for AI translation, (3) a person silhouette with a checkmark for native-speaker review, (4) a small QA clipboard with a target/locale pin for cultural QA. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage AI translation and localization process"
+    },
+    {
+      "name": "languages",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing a tiny abstract calligraphic stroke or geometric shape suggesting a different script (no actual letters): a Devanagari-style horizontal mark with a stroke, a curving Arabic-style flourish, a small block resembling a Chinese-style square character, a Latin curve, a Cyrillic-style angled mark, a Korean-style block of dots and lines. Glyphs simple, geometric, abstract — no real characters. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: multi-script, premium localization studio.",
+      "alt": "Grid illustration of six abstract script glyphs representing the language families we localize for"
+    }
+  ]
+}
