@@ -170,7 +170,10 @@ const categories: Category[] = [
     blurb:
       "Brand-grade visuals with Midjourney, DALL-E, Flux, and beyond, logos, ads, mockups, and product imagery.",
     items: [
-      { title: "AI Image Generation (Midjourney, DALL-E, Flux)" },
+      {
+        title: "AI Image Generation (Midjourney, DALL-E, Flux)",
+        href: "/services/ai-services/ai-image-generation",
+      },
       { title: "AI Logo Design" },
       { title: "AI Brand Asset Creation" },
       { title: "AI Product Photography" },

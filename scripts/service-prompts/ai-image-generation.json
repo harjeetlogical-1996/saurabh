@@ -1,0 +1,20 @@
+{
+  "slug": "ai-image-generation",
+  "images": [
+    {
+      "name": "hero",
+      "prompt": "A dark, premium editorial illustration for an AI Image Generation service hero. Wide 16:9 aspect ratio. Composition: a stylized 'image canvas' rectangle rendered in 1.5px cyan #00f5d4 outlines on near-black #0a0a0a, with a small placeholder picture-frame icon centered inside. Around the canvas, four small floating shape badges suggesting different generation outputs: a triangle (illustration), a circle (photography), a diamond (3D), a hexagon (abstract). A small sparkle glyph hovers above the canvas representing AI. Faint cyan threads connect the badges to the canvas. Subtle dot-grid background. Soft cyan glow behind the canvas. No text, no real labels, no people, no logos. Mood: generative, premium AI image studio. Flat vector aesthetic, 8% cyan fills, cinematic lighting upper-left.",
+      "alt": "AI image canvas surrounded by abstract output-style badges"
+    },
+    {
+      "name": "process",
+      "prompt": "A dark, schematic illustration of a four-stage AI Image Generation process, laid out as a horizontal flow on near-black #0a0a0a background. Wide 16:9 aspect ratio. Four rounded-square nodes connected by glowing cyan #00f5d4 arrowed lines. Each node holds one tiny abstract glyph in 1.5px cyan strokes: (1) a magnifying glass over a clipboard for brief, (2) a sparkle/diamond over multiple stacked image rectangles for AI variant generation, (3) a pen-tip with a checkmark for art-director curation, (4) a small upload arrow into a folder for delivery. Subtle dot grid background. No text, no numbers, no people, no logos. Confident editorial flat vector, monochrome cyan accents.",
+      "alt": "Diagram of the four-stage AI image generation process"
+    },
+    {
+      "name": "models",
+      "prompt": "A dark, abstract editorial illustration showing six small rounded-square cards arranged in a balanced 3-by-2 grid on near-black #0a0a0a background. Wide 16:9 aspect ratio. Each card is a 1.5px stroked cyan #00f5d4 outline containing one tiny abstract glyph hinting at an AI image model family: a small flower-like asterisk (Midjourney-style), a stylized D shape (DALL-E-style), a flux-flow waves shape (Flux-style), a sparkle/diamond (Imagen-style), a 'SD' two-letter geometric block (Stable Diffusion), a small zoomed-in lens for fine-detail (custom). Glyphs simple, geometric, no real logos. Faint cyan threads between adjacent cards. Subtle dot-grid background. Soft cyan vignette upper-right corner. No text, no labels, no people, no logos. Mood: multi-model, premium AI image studio.",
+      "alt": "Grid illustration of six AI image model families we use"
+    }
+  ]
+}
