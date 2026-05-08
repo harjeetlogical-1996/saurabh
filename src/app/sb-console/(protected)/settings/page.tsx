@@ -203,6 +203,7 @@ export default async function SettingsPage() {
           faviconId={values["brand.favicon_id"] ?? ""}
           logoId={values["brand.logo_id"] ?? ""}
           ogId={values["brand.og_image_id"] ?? ""}
+          founderPhotoId={values["brand.founder_photo_id"] ?? ""}
         />
       </div>
 
@@ -353,10 +354,12 @@ function BrandAssetsSection({
   faviconId,
   logoId,
   ogId,
+  founderPhotoId,
 }: {
   faviconId: string;
   logoId: string;
   ogId: string;
+  founderPhotoId: string;
 }) {
   return (
     <section className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-7 md:p-9">
@@ -365,13 +368,13 @@ function BrandAssetsSection({
           Brand assets
         </h2>
         <p className="mt-1.5 text-[13px] text-[var(--muted)] leading-[1.6] max-w-[640px]">
-          Upload your favicon, logo, and Open Graph image. Each is processed
-          and served at the right size on demand. PNG, JPG, WebP, SVG
-          accepted (favicon also accepts ICO).
+          Upload your favicon, logo, OG image, and founder photo. Each is
+          processed and served at the right size on demand. PNG, JPG, WebP,
+          SVG accepted (favicon also accepts ICO).
         </p>
       </div>
 
-      <div className="mt-7 grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div className="mt-7 grid grid-cols-1 md:grid-cols-2 gap-5">
         <BrandAssetCard
           kind="favicon"
           label="Favicon"
@@ -381,7 +384,7 @@ function BrandAssetsSection({
         <BrandAssetCard
           kind="logo"
           label="Site logo"
-          hint="Shown in the navbar (max 32px tall). Wide PNG with transparent background, or SVG."
+          hint="Shown in the navbar and footer. Wide PNG with transparent background, or SVG. Height tunable below."
           fileId={logoId}
         />
         <BrandAssetCard
@@ -389,6 +392,12 @@ function BrandAssetsSection({
           label="Open Graph image"
           hint="Social-share image (1200×630). Used on Twitter / LinkedIn / Slack previews."
           fileId={ogId}
+        />
+        <BrandAssetCard
+          kind="founder_photo"
+          label="Founder photo"
+          hint="Shown in the home About section. 4:5 portrait recommended (e.g. 1000×1250). Cropped to fill."
+          fileId={founderPhotoId}
         />
       </div>
     </section>
@@ -401,7 +410,7 @@ function BrandAssetCard({
   hint,
   fileId,
 }: {
-  kind: "favicon" | "logo" | "og_image";
+  kind: "favicon" | "logo" | "og_image" | "founder_photo";
   label: string;
   hint: string;
   fileId: string;
@@ -432,7 +441,7 @@ function BrandAssetCard({
             src={previewUrl}
             alt={`${label} preview`}
             className={
-              kind === "og_image"
+              kind === "og_image" || kind === "founder_photo"
                 ? "w-full h-full object-cover"
                 : "max-h-[60%] max-w-[60%] object-contain"
             }

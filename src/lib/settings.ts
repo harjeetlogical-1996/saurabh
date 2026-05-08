@@ -47,6 +47,7 @@ export const SETTING_DEFAULTS = {
   "brand.favicon_id": "",
   "brand.logo_id": "",
   "brand.og_image_id": "",
+  "brand.founder_photo_id": "",
 
   // Logo display sizing. Stored as the rendered height in pixels — width
   // auto from the image's aspect ratio. Defaults match the bundled

@@ -26,12 +26,13 @@ async function getBucket(): Promise<GridFSBucket> {
   return bucket;
 }
 
-export type BrandAssetKind = "favicon" | "logo" | "og_image";
+export type BrandAssetKind = "favicon" | "logo" | "og_image" | "founder_photo";
 
 const SETTING_KEY_BY_KIND: Record<BrandAssetKind, string> = {
   favicon: "brand.favicon_id",
   logo: "brand.logo_id",
   og_image: "brand.og_image_id",
+  founder_photo: "brand.founder_photo_id",
 };
 
 export function settingKeyFor(kind: BrandAssetKind): string {
@@ -39,7 +40,12 @@ export function settingKeyFor(kind: BrandAssetKind): string {
 }
 
 export function isBrandAssetKind(v: string): v is BrandAssetKind {
-  return v === "favicon" || v === "logo" || v === "og_image";
+  return (
+    v === "favicon" ||
+    v === "logo" ||
+    v === "og_image" ||
+    v === "founder_photo"
+  );
 }
 
 /** Upload a buffer as the source for a brand asset. Returns the new file id. */

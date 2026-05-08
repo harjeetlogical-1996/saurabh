@@ -1,8 +1,22 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Reveal } from "./Reveal";
+import { getAllSettings } from "@/lib/settings";
 
-export function About() {
+const PLACEHOLDER_PHOTO =
+  "https://images.unsplash.com/photo-1542178243-bc20204b769f?w=900&h=1125&fit=crop&auto=format&q=80";
+
+export async function About() {
+  const settings = await getAllSettings();
+  const photoId = settings["brand.founder_photo_id"] || "";
+  const photoUrl = photoId
+    ? `/api/brand/founder_photo?v=${photoId}`
+    : PLACEHOLDER_PHOTO;
+  // next/image needs to know remote hosts up front; the uploaded variant
+  // lives on our own /api/brand/* route so it's fine for next/image. The
+  // placeholder host (images.unsplash.com) is already whitelisted in
+  // next.config.ts.
+
   return (
     <section
       id="about"
@@ -18,11 +32,15 @@ export function About() {
               />
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-[var(--line)] bg-black">
                 <Image
-                  src="https://images.unsplash.com/photo-1542178243-bc20204b769f?w=900&h=1125&fit=crop&auto=format&q=80"
+                  src={photoUrl}
                   alt="Saurabh Bhayana, founder of Saurabh Bhayana & Team, at his desk in Fatehabad, India"
                   fill
                   sizes="(min-width: 768px) 40vw, 90vw"
                   className="object-cover grayscale opacity-90"
+                  // Skip next/image optimization for our /api/brand/* route
+                  // — sharp already produces an optimized JPEG. Skip is also
+                  // safe because the URL is cache-busted with ?v=<id>.
+                  unoptimized={photoUrl.startsWith("/api/brand/")}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent pointer-events-none" />
                 <div className="absolute left-4 bottom-4 right-4 flex items-end justify-between">

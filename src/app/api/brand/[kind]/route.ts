@@ -33,6 +33,9 @@ const VARIANT_BY_KIND: Record<
   favicon: { width: 32, height: 32, format: "png", mime: "image/png" },
   logo: { width: 256, format: "png", mime: "image/png" },
   og_image: { width: 1200, height: 630, format: "jpeg", mime: "image/jpeg" },
+  // Founder photo on the home About section. 4:5 portrait, used at ~440px
+  // wide max — 1000×1250 source gives plenty of headroom for retina.
+  founder_photo: { width: 1000, height: 1250, format: "jpeg", mime: "image/jpeg" },
 };
 
 export async function GET(
@@ -94,7 +97,9 @@ export async function GET(
   pipeline = pipeline.resize({
     width: variant.width,
     height: variant.height,
-    fit: kind === "og_image" ? "cover" : "contain",
+    // og_image and founder_photo have target dimensions and want to crop
+    // to fill them; favicon / logo preserve aspect ratio with contain.
+    fit: kind === "og_image" || kind === "founder_photo" ? "cover" : "contain",
     background: { r: 0, g: 0, b: 0, alpha: 0 },
   });
 
