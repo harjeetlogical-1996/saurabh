@@ -47,6 +47,12 @@ export const SETTING_DEFAULTS = {
   "brand.favicon_id": "",
   "brand.logo_id": "",
   "brand.og_image_id": "",
+
+  // Logo display sizing. Stored as the rendered height in pixels — width
+  // auto from the image's aspect ratio. Defaults match the bundled
+  // logomark so falling back doesn't change layout.
+  "brand.logo_height_navbar": "32",
+  "brand.logo_height_footer": "36",
 } as const;
 
 export type SettingKey = keyof typeof SETTING_DEFAULTS;

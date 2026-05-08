@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SubscribeForm } from "./SubscribeForm";
+import { getAllSettings } from "@/lib/settings";
 
 const cols = [
   {
@@ -31,24 +32,48 @@ const cols = [
   },
 ];
 
-export function Footer() {
+export async function Footer() {
+  const settings = await getAllSettings();
+  const logoId = settings["brand.logo_id"] || "";
+  const logoUrl = logoId ? `/api/brand/logo?v=${logoId}` : "";
+  const footerHeight = clampPx(
+    settings["brand.logo_height_footer"],
+    16,
+    96,
+    36,
+  );
+
   return (
     <footer className="bg-[var(--bg)] text-white relative overflow-hidden border-t border-[var(--line)]">
       <div className="relative max-w-[1240px] mx-auto px-6 py-20">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
           <div className="md:col-span-5">
             <div className="flex items-center gap-2.5">
-              <span className="relative inline-flex h-9 w-9 items-center justify-center rounded-md bg-[var(--accent)] text-black overflow-hidden">
-                <span className="font-display text-[14px] leading-none relative z-10">
-                  sb
-                </span>
-                <span className="absolute inset-0 animate-spin-slow">
-                  <span className="absolute top-0 left-1/2 -translate-x-1/2 h-1 w-1 rounded-full bg-black" />
-                </span>
-              </span>
-              <span className="font-display text-[24px] tracking-tight">
-                Saurabh<span className="text-[var(--accent)]">.</span>
-              </span>
+              {logoUrl ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={logoUrl}
+                  alt="Logo"
+                  style={{ height: `${footerHeight}px` }}
+                  className="w-auto max-w-[300px] object-contain"
+                  width={300}
+                  height={footerHeight}
+                />
+              ) : (
+                <>
+                  <span className="relative inline-flex h-9 w-9 items-center justify-center rounded-md bg-[var(--accent)] text-black overflow-hidden">
+                    <span className="font-display text-[14px] leading-none relative z-10">
+                      sb
+                    </span>
+                    <span className="absolute inset-0 animate-spin-slow">
+                      <span className="absolute top-0 left-1/2 -translate-x-1/2 h-1 w-1 rounded-full bg-black" />
+                    </span>
+                  </span>
+                  <span className="font-display text-[24px] tracking-tight">
+                    Saurabh<span className="text-[var(--accent)]">.</span>
+                  </span>
+                </>
+              )}
             </div>
             <p className="mt-6 max-w-[400px] text-[14px] text-[var(--muted)] leading-[1.7]">
               Founder-led studio shipping{" "}
@@ -113,4 +138,16 @@ export function Footer() {
       </div>
     </footer>
   );
+}
+
+/** Parse an admin pixel-height setting into a safe number. */
+function clampPx(
+  raw: string | undefined,
+  min: number,
+  max: number,
+  fallback: number,
+): number {
+  const n = Number(raw);
+  if (!Number.isFinite(n)) return fallback;
+  return Math.max(min, Math.min(max, Math.round(n)));
 }

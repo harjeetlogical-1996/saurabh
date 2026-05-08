@@ -37,6 +37,8 @@ export async function Navbar() {
   const settings = await getAllSettings();
   const logoId = settings["brand.logo_id"] || "";
   const logoUrl = logoId ? `/api/brand/logo?v=${logoId}` : "";
+  // Admin-tunable logo height (px). Clamp so a typo can't wreck the navbar.
+  const navHeight = clampPx(settings["brand.logo_height_navbar"], 16, 80, 32);
 
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-xl bg-[rgba(10,10,10,0.7)] border-b border-[var(--line)]">
@@ -47,9 +49,10 @@ export async function Navbar() {
             <img
               src={logoUrl}
               alt="Logo"
-              className="h-8 w-auto max-w-[200px] object-contain"
-              width={256}
-              height={64}
+              style={{ height: `${navHeight}px` }}
+              className="w-auto max-w-[260px] object-contain"
+              width={260}
+              height={navHeight}
             />
           ) : (
             <>
@@ -169,4 +172,19 @@ function Logomark() {
       </span>
     </span>
   );
+}
+
+/**
+ * Parse an admin-string-stored pixel height into a safe number.
+ * Returns `fallback` if the value is missing, non-numeric, or out of range.
+ */
+function clampPx(
+  raw: string | undefined,
+  min: number,
+  max: number,
+  fallback: number,
+): number {
+  const n = Number(raw);
+  if (!Number.isFinite(n)) return fallback;
+  return Math.max(min, Math.min(max, Math.round(n)));
 }

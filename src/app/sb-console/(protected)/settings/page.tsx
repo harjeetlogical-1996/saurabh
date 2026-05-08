@@ -162,6 +162,25 @@ const groups: GroupDef[] = [
       },
     ],
   },
+  {
+    title: "Logo display",
+    description:
+      "Tune how tall your uploaded logo renders in the navbar and footer. Width auto-fits the image's aspect ratio.",
+    fields: [
+      {
+        key: "brand.logo_height_navbar",
+        label: "Navbar logo height (px)",
+        type: "number",
+        hint: "Recommended 24–48. Default: 32. Navbar is 64px tall.",
+      },
+      {
+        key: "brand.logo_height_footer",
+        label: "Footer logo height (px)",
+        type: "number",
+        hint: "Recommended 28–60. Default: 36.",
+      },
+    ],
+  },
 ];
 
 export default async function SettingsPage() {
