@@ -63,6 +63,33 @@ export default async function DashboardPage() {
               )}
             </div>
           </div>
+
+          {/* Tools workspace card — opens the subdomain that hosts the
+              creator tools (audio→video, captions, voice-pair). Shares
+              the same .saurabhbhayana.com session cookie so users land
+              already-signed-in. */}
+          <a
+            href="https://tool.saurabhbhayana.com"
+            className="mt-6 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-6 md:p-8 flex items-center justify-between gap-6 group hover:border-[var(--accent)]/60 hover:bg-[var(--surface)]/80 transition-colors"
+          >
+            <div className="min-w-0">
+              <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.22em] text-[var(--accent)] font-mono">
+                <span className="h-1.5 w-1.5 rounded-full bg-[var(--accent)] animate-pulse" />
+                Self-serve tools
+              </div>
+              <h2 className="mt-2 font-display text-[20px] md:text-[24px] tracking-[-0.02em]">
+                Open the Tools workspace
+              </h2>
+              <p className="mt-2 text-[13.5px] md:text-[14px] text-[var(--muted)] leading-[1.6] max-w-[520px]">
+                Audio→Video reels, AI captions in 17 styles, and Voice Pair
+                (pair media with voiceovers). All your renders, all in one
+                place.
+              </p>
+            </div>
+            <div className="shrink-0 inline-flex h-11 items-center gap-2 px-5 rounded-full bg-[var(--accent)] text-black font-semibold text-[13px] group-hover:shadow-[0_0_24px_var(--accent-glow)] transition-shadow">
+              Open tools <span aria-hidden className="transition-transform group-hover:translate-x-0.5">→</span>
+            </div>
+          </a>
         </div>
       </main>
       <Footer />
