@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getAllSettings } from "@/lib/settings";
+import { getSession } from "@/lib/auth-server";
 
 type Sub = { label: string; href: string; desc?: string };
 type Item = { label: string; href: string; subs?: Sub[] };
@@ -39,6 +40,23 @@ export async function Navbar() {
   const logoUrl = logoId ? `/api/brand/logo?v=${logoId}` : "";
   // Admin-tunable logo height (px). Clamp so a typo can't wreck the navbar.
   const navHeight = clampPx(settings["brand.logo_height_navbar"], 16, 80, 32);
+
+  // Session for the auth-aware menu. Logged-in users see Dashboard +
+  // their email; logged-out users see the Log in link. Wrapped in
+  // try/catch so a transient Mongo blip on cold start doesn't 500 the
+  // whole landing page — it just falls back to logged-out UI.
+  let user: { email?: string; name?: string } | null = null;
+  try {
+    const session = await getSession();
+    if (session?.user) {
+      user = {
+        email: session.user.email,
+        name: session.user.name,
+      };
+    }
+  } catch {
+    /* logged-out fallback */
+  }
 
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-xl bg-[rgba(10,10,10,0.7)] border-b border-[var(--line)]">
@@ -140,12 +158,30 @@ export async function Navbar() {
         </ul>
 
         <div className="flex items-center gap-3">
-          <Link
-            href="/login"
-            className="hidden md:inline-flex h-9 items-center text-[13px] text-[var(--muted)] hover:text-white transition-colors"
-          >
-            Log in
-          </Link>
+          {user ? (
+            // Authed users get a Dashboard link with a tiny email
+            // chip — enough to confirm which account is active without
+            // a heavy dropdown component on every page.
+            <Link
+              href="/dashboard"
+              className="hidden md:inline-flex h-9 items-center gap-2 text-[13px] text-white hover:text-[var(--accent)] transition-colors"
+              title={user.email ?? "Account"}
+            >
+              <span>Dashboard</span>
+              {user.email && (
+                <span className="text-[var(--muted)] text-[12px] max-w-[180px] truncate">
+                  {user.email}
+                </span>
+              )}
+            </Link>
+          ) : (
+            <Link
+              href="/login"
+              className="hidden md:inline-flex h-9 items-center text-[13px] text-[var(--muted)] hover:text-white transition-colors"
+            >
+              Log in
+            </Link>
+          )}
           <Link
             href="/contact"
             className="group relative inline-flex h-9 items-center gap-1.5 bg-[var(--accent)] text-black text-[13px] font-semibold px-4 rounded-full overflow-hidden transition-all hover:-translate-y-0.5 hover:shadow-[0_0_24px_var(--accent-glow)]"
