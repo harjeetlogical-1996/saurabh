@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getAllSettings } from "@/lib/settings";
 import { getSession } from "@/lib/auth-server";
+import { UserMenu } from "./UserMenu";
 
 type Sub = { label: string; href: string; desc?: string };
 type Item = { label: string; href: string; subs?: Sub[] };
@@ -41,17 +42,23 @@ export async function Navbar() {
   // Admin-tunable logo height (px). Clamp so a typo can't wreck the navbar.
   const navHeight = clampPx(settings["brand.logo_height_navbar"], 16, 80, 32);
 
-  // Session for the auth-aware menu. Logged-in users see Dashboard +
-  // their email; logged-out users see the Log in link. Wrapped in
-  // try/catch so a transient Mongo blip on cold start doesn't 500 the
-  // whole landing page — it just falls back to logged-out UI.
-  let user: { email?: string; name?: string } | null = null;
+  // Session for the auth-aware menu. Logged-in users get the full
+  // account dropdown (avatar + email + Dashboard + Tools + Sign out);
+  // logged-out users see the Log in link. Wrapped in try/catch so a
+  // transient Mongo blip on cold start doesn't 500 the whole landing
+  // page — it just falls back to logged-out UI.
+  let user: {
+    email?: string | null;
+    name?: string | null;
+    role?: string | null;
+  } | null = null;
   try {
     const session = await getSession();
     if (session?.user) {
       user = {
         email: session.user.email,
         name: session.user.name,
+        role: (session.user as { role?: string }).role ?? "user",
       };
     }
   } catch {
@@ -159,21 +166,7 @@ export async function Navbar() {
 
         <div className="flex items-center gap-3">
           {user ? (
-            // Authed users get a Dashboard link with a tiny email
-            // chip — enough to confirm which account is active without
-            // a heavy dropdown component on every page.
-            <Link
-              href="/dashboard"
-              className="hidden md:inline-flex h-9 items-center gap-2 text-[13px] text-white hover:text-[var(--accent)] transition-colors"
-              title={user.email ?? "Account"}
-            >
-              <span>Dashboard</span>
-              {user.email && (
-                <span className="text-[var(--muted)] text-[12px] max-w-[180px] truncate">
-                  {user.email}
-                </span>
-              )}
-            </Link>
+            <UserMenu user={user} />
           ) : (
             <Link
               href="/login"
